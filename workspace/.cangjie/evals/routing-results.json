@@ -1,0 +1,303 @@
+{
+  "planned": 59,
+  "completed": 59,
+  "passed": 59,
+  "failures": [],
+  "observations": [
+    {
+      "case_id": "route-V01",
+      "selected_slug": "expectation-needs",
+      "reason": "分开行为期望、内在需要与放手意愿。"
+    },
+    {
+      "case_id": "route-V02",
+      "selected_slug": "conflict-behaviors",
+      "reason": "本人承认羞辱以报复，要求检查和替代表达。"
+    },
+    {
+      "case_id": "route-V03",
+      "selected_slug": "eight-question-dialogue",
+      "reason": "请求按八问澄清事实、感受与冲突。"
+    },
+    {
+      "case_id": "route-V04",
+      "selected_slug": "feeling-expression",
+      "reason": "用艺术意象记录普通烦躁及感受变化。"
+    },
+    {
+      "case_id": "route-V05",
+      "selected_slug": "drama-triangle",
+      "reason": "自述包办、责怪和委屈间的角色变化。"
+    },
+    {
+      "case_id": "route-V06",
+      "selected_slug": "beyond-two-options",
+      "reason": "请求扩展全参加或全不参加的二选一。"
+    },
+    {
+      "case_id": "route-V07",
+      "selected_slug": "family-response-patterns",
+      "reason": "比较已知家庭摔门习惯并练习不同回应。"
+    },
+    {
+      "case_id": "route-V08",
+      "selected_slug": "willing-giving",
+      "reason": "辨认拒绝内疚、付出求感谢与自愿部分。"
+    },
+    {
+      "case_id": "route-V09",
+      "selected_slug": "attachment-images",
+      "reason": "用图像探索为得到爱而缩减自己。"
+    },
+    {
+      "case_id": "route-V10",
+      "selected_slug": "shadow-self-reflection",
+      "reason": "保留他人抢话事实并探索自身相似担忧。"
+    },
+    {
+      "case_id": "route-V11",
+      "selected_slug": "partner-competition",
+      "reason": "本人承认伴侣成功后的较劲并寻求支持动作。"
+    },
+    {
+      "case_id": "route-V12",
+      "selected_slug": "sincere-appreciation",
+      "reason": "针对真实倾听行为表达具体感谢。"
+    },
+    {
+      "case_id": "route-V13",
+      "selected_slug": "partner-double-list",
+      "reason": "明确请求优缺点双表计数及解释边界。"
+    },
+    {
+      "case_id": "route-V14",
+      "selected_slug": "loving-action-experiment",
+      "reason": "假设融洽并自主尝试一个可观察善意行动。"
+    },
+    {
+      "case_id": "route-V15",
+      "selected_slug": "perspective-cooperation",
+      "reason": "双方愿意围绕顾虑与提案共同迭代。"
+    },
+    {
+      "case_id": "route-V16",
+      "selected_slug": "specific-apology",
+      "reason": "为明确失约和辱骂承担具体责任。"
+    },
+    {
+      "case_id": "route-V17",
+      "selected_slug": "space-to-talk",
+      "reason": "对方暂不愿谈，寻求可等待且不逼迫的邀请。"
+    },
+    {
+      "case_id": "route-V18",
+      "selected_slug": "self-doubt-inquiry",
+      "reason": "将一次失败泛化为必败与不值得爱，要求开放提问。"
+    },
+    {
+      "case_id": "route-V19",
+      "selected_slug": "values-and-choice",
+      "reason": "反思见面安排的动机价值并表达自己的选择。"
+    },
+    {
+      "case_id": "expectation-needs-positive-1",
+      "selected_slug": "expectation-needs",
+      "reason": "分开行为期望、内在需要与放手意愿。"
+    },
+    {
+      "case_id": "expectation-needs-positive-2",
+      "selected_slug": "expectation-needs",
+      "reason": "核心请求是区分证明在乎的期望与内在需要。"
+    },
+    {
+      "case_id": "expectation-needs-positive-3",
+      "selected_slug": "expectation-needs",
+      "reason": "指定用识别期望背后需求整理互动。"
+    },
+    {
+      "case_id": "expectation-needs-negative-1",
+      "selected_slug": "out-of-scope",
+      "reason": "询问地理常识，与本书关系反思无关。"
+    },
+    {
+      "case_id": "expectation-needs-negative-2",
+      "selected_slug": "overview",
+      "reason": "仅查询本书作者版本。"
+    },
+    {
+      "case_id": "expectation-needs-sibling",
+      "selected_slug": "conflict-behaviors",
+      "reason": "本人承认公开羞辱伴侣以报复。"
+    },
+    {
+      "case_id": "expectation-needs-router",
+      "selected_slug": "partner-double-list",
+      "reason": "请求双表计数及其解释限度。"
+    },
+    {
+      "case_id": "expectation-needs-edge",
+      "selected_slug": "out-of-scope",
+      "reason": "正在遭受伤害威胁，超出自愿日常反思范围。"
+    },
+    {
+      "case_id": "eight-question-dialogue-positive-1",
+      "selected_slug": "eight-question-dialogue",
+      "reason": "指定按八问核对未确认事实并整理失落。"
+    },
+    {
+      "case_id": "eight-question-dialogue-positive-2",
+      "selected_slug": "eight-question-dialogue",
+      "reason": "冲突后希望整合事实、感受与对话。"
+    },
+    {
+      "case_id": "eight-question-dialogue-positive-3",
+      "selected_slug": "eight-question-dialogue",
+      "reason": "明确选择沟通八问作为整理方法。"
+    },
+    {
+      "case_id": "eight-question-dialogue-negative-1",
+      "selected_slug": "out-of-scope",
+      "reason": "地理事实问题与本书应用无关。"
+    },
+    {
+      "case_id": "eight-question-dialogue-negative-2",
+      "selected_slug": "overview",
+      "reason": "只要作者版本信息，不开展练习。"
+    },
+    {
+      "case_id": "eight-question-dialogue-sibling",
+      "selected_slug": "feeling-expression",
+      "reason": "艺术表达普通情绪并形成表达记录。"
+    },
+    {
+      "case_id": "eight-question-dialogue-router",
+      "selected_slug": "partner-double-list",
+      "reason": "优缺点双表及分数含义是实际任务。"
+    },
+    {
+      "case_id": "eight-question-dialogue-edge",
+      "selected_slug": "out-of-scope",
+      "reason": "当前危险需危机处理，不适用日常关系练习。"
+    },
+    {
+      "case_id": "drama-triangle-positive-1",
+      "selected_slug": "drama-triangle",
+      "reason": "自述从包办到责怪再到委屈的循环。"
+    },
+    {
+      "case_id": "drama-triangle-positive-2",
+      "selected_slug": "drama-triangle",
+      "reason": "请求辨认自身包办、责怪与委屈的角色。"
+    },
+    {
+      "case_id": "drama-triangle-positive-3",
+      "selected_slug": "drama-triangle",
+      "reason": "指定戏剧三角的角色循环整理。"
+    },
+    {
+      "case_id": "drama-triangle-negative-1",
+      "selected_slug": "out-of-scope",
+      "reason": "加拿大首都不在关系方法目录内。"
+    },
+    {
+      "case_id": "drama-triangle-negative-2",
+      "selected_slug": "overview",
+      "reason": "仅涉及书籍作者和版本。"
+    },
+    {
+      "case_id": "drama-triangle-sibling",
+      "selected_slug": "beyond-two-options",
+      "reason": "寻求聚会全参加或全放弃之外的选项。"
+    },
+    {
+      "case_id": "drama-triangle-router",
+      "selected_slug": "partner-double-list",
+      "reason": "实际请求是双列表规则及边界。"
+    },
+    {
+      "case_id": "drama-triangle-edge",
+      "selected_slug": "out-of-scope",
+      "reason": "即时伤害威胁超出普通练习边界。"
+    },
+    {
+      "case_id": "beyond-two-options-positive-1",
+      "selected_slug": "beyond-two-options",
+      "reason": "要拓展两个极端聚会方案。"
+    },
+    {
+      "case_id": "beyond-two-options-positive-2",
+      "selected_slug": "beyond-two-options",
+      "reason": "困于忍受或断开两项选择，需要扩展选项。"
+    },
+    {
+      "case_id": "beyond-two-options-positive-3",
+      "selected_slug": "beyond-two-options",
+      "reason": "明确指定打开两难之外的选择。"
+    },
+    {
+      "case_id": "beyond-two-options-negative-1",
+      "selected_slug": "out-of-scope",
+      "reason": "与关系互动无关的地理查询。"
+    },
+    {
+      "case_id": "beyond-two-options-negative-2",
+      "selected_slug": "overview",
+      "reason": "作者版本属于本书基本信息。"
+    },
+    {
+      "case_id": "beyond-two-options-sibling",
+      "selected_slug": "family-response-patterns",
+      "reason": "已知家庭回应被重复，意图是替换一次回应。"
+    },
+    {
+      "case_id": "beyond-two-options-router",
+      "selected_slug": "partner-double-list",
+      "reason": "请求按本书双表计算与解释。"
+    },
+    {
+      "case_id": "beyond-two-options-edge",
+      "selected_slug": "out-of-scope",
+      "reason": "当前人身威胁不能用日常反思练习处理。"
+    },
+    {
+      "case_id": "willing-giving-positive-1",
+      "selected_slug": "willing-giving",
+      "reason": "辨认内疚驱动的付出并界定自愿范围。"
+    },
+    {
+      "case_id": "willing-giving-positive-2",
+      "selected_slug": "willing-giving",
+      "reason": "请求区分内疚答应、怨怼与自愿给予。"
+    },
+    {
+      "case_id": "willing-giving-positive-3",
+      "selected_slug": "willing-giving",
+      "reason": "明确要求自愿付出与牺牲的辨认方法。"
+    },
+    {
+      "case_id": "willing-giving-negative-1",
+      "selected_slug": "out-of-scope",
+      "reason": "地理知识查询不属于本目录。"
+    },
+    {
+      "case_id": "willing-giving-negative-2",
+      "selected_slug": "overview",
+      "reason": "只查询作者和版本的书籍信息。"
+    },
+    {
+      "case_id": "willing-giving-sibling",
+      "selected_slug": "attachment-images",
+      "reason": "为讨喜收起自己，明确希望以图像探索依附。"
+    },
+    {
+      "case_id": "willing-giving-router",
+      "selected_slug": "partner-double-list",
+      "reason": "双表计数及其局限是主要意图。"
+    },
+    {
+      "case_id": "willing-giving-edge",
+      "selected_slug": "out-of-scope",
+      "reason": "正在被威胁伤害，需超出本书日常方法的处理。"
+    }
+  ]
+}

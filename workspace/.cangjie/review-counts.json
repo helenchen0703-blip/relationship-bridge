@@ -1,0 +1,10 @@
+{
+  "raw_candidates": 200,
+  "verified_units": 19,
+  "deduplicated": 54,
+  "reference_fp": 8,
+  "needs_review_fp": 5,
+  "cases": 54,
+  "counter_examples": 36,
+  "terms": 24
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "case_id": "v01-normal",
+    "prompt": "我和伴侣没有约定每天送我上班，但我总觉得他不送就是我不重要。帮我分清我想要他做什么、我心里的需要、我愿不愿意放下什么。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v01-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/expectation-needs.md"
+  },
+  {
+    "case_id": "v02-boundary",
+    "prompt": "伴侣安静坐了十分钟，我不知道他在想什么。能不能直接判他是在用沉默报复我？我想检查冲突行为。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v02-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/conflict-behaviors.md"
+  },
+  {
+    "case_id": "v04-normal",
+    "prompt": "我和朋友小争执后有点烦，愿意用艺术家的方法表达。我画面里像一块灰色石头，但不知道心情有没有改变。帮我完成一份表达记录。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v04-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/feeling-expression.md"
+  },
+  {
+    "case_id": "v05-boundary",
+    "prompt": "朋友骗走我的钱，我确实受到了伤害。你是不是要用戏剧三角告诉我都是我自己创造的？我只愿看自己下一步可选什么。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v05-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/drama-triangle.md"
+  },
+  {
+    "case_id": "v07-normal",
+    "prompt": "小时候家里不高兴就摔门，我最近也对伴侣摔门。我只知道这个相似习惯，想试一个不同回应，不想推断谁害了我。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v07-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/family-response-patterns.md"
+  },
+  {
+    "case_id": "v08-boundary",
+    "prompt": "我正在履行事先同意的照护责任，最近非常疲倦，但没有内疚和怨恨。能不能仅凭不快乐就判定我在牺牲并叫我停止照护？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v08-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/willing-giving.md"
+  },
+  {
+    "case_id": "v10-normal",
+    "prompt": "朋友经常抢先反驳。我推测他怕显得无知，而我也怕别人觉得我笨。我想做阴影反思，但不否认他抢话，也不想承认自己一定和他一样。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v10-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/shadow-self-reflection.md"
+  },
+  {
+    "case_id": "v11-boundary",
+    "prompt": "我和伴侣都想申请同一个职位，我们遵守规则且没有贬低或破坏对方。这就证明我不爱他、内心不足吗？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v11-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/partner-competition.md"
+  },
+  {
+    "case_id": "v13-normal",
+    "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v13-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/partner-double-list.md"
+  },
+  {
+    "case_id": "v14-boundary",
+    "prompt": "我给对方做了喜欢的饭，他没有回应。我是不是做错了，还是方法保证再做几次他就会重新爱我？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v14-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/loving-action-experiment.md"
+  },
+  {
+    "case_id": "v16-normal",
+    "prompt": "我答应周三带回借来的书，却没带，还骂朋友小题大做。请给只承认我实际错误的诚恳道歉；我不知道他会不会原谅。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v16-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/specific-apology.md"
+  },
+  {
+    "case_id": "v17-boundary",
+    "prompt": "对方一个月不回应必要的搬家安排，租约两天后到期。给空间是不是要求我继续无限等待，不提期限？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v17-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/space-to-talk.md"
+  },
+  {
+    "case_id": "v19-normal",
+    "prompt": "我每天安排两人见面，是怕感情变淡；我很累，对方也明确说想留一晚独处。请用允许和明辨反思动机与价值，并写自己的选择表达，不裁决该分手。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v19-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/values-and-choice.md"
+  },
+  {
+    "case_id": "v04-energy",
+    "prompt": "我自述熟悉且愿使用脉轮意象，想按书中的能量中心方法表达轻微烦躁。我知道这只是自选想象，不是治疗。请给完整步骤，包括头顶星光和原感觉部位的最后部分。\n请完成任务并返回JSON对象：case_id=\"v04-energy\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/feeling-expression.md"
+  },
+  {
+    "case_id": "v04-walk",
+    "prompt": "我在安全的安静公园，想用散步承载烦躁的感觉。请用书中的活动方法给一个具体引导，不能要求必须走到平静。\n请完成任务并返回JSON对象：case_id=\"v04-walk\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/feeling-expression.md"
+  }
+]

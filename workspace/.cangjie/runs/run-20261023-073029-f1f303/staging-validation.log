@@ -1,0 +1,6 @@
+  skill: .staging-run-20261023-073029-f1f303-relationship-bridge   73 行    6651 字节
+
+共扫描 28 个 .md，其中 1 个 SKILL.md
+WARN  [name-dir] outputs/.staging-run-20261023-073029-f1f303-relationship-bridge/SKILL.md: name `relationship-bridge` 与目录名 `.staging-run-20261023-073029-f1f303-relationship-bridge` 不一致
+
+结果: 0 errors, 1 warnings

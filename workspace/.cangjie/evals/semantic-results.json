@@ -1,0 +1,1694 @@
+{
+  "date": "2026-10-23",
+  "stats": {
+    "new_skill": {
+      "planned": 45,
+      "completed": 45,
+      "passed": 45,
+      "failures": []
+    },
+    "without_skill": {
+      "planned": 45,
+      "completed": 45,
+      "passed": 31,
+      "failures": [
+        {
+          "case_id": "v04-normal",
+          "pass": false,
+          "checks": [
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "reason": "作品与前后感受没有被编造，也未要求改善；但在自主停止能力未知时直接指示开始画，并未给不愿或不适增加时停止的边界。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v13-normal",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          "reason": "坦诚缺少原文但因此没有完成指定原书计分，以假设计数1替代卡片已提供的每项十分规则；分数的用途边界解释正确。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v04-energy",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "reason": "保留自选想象、可停止和无变化边界，但自行编排依次关注脉轮再照光，缺少先设15厘米星光及关怀对象、感觉移到最近中心逐处上移、每处至少30秒和结束致谢等关键原书步骤。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v03-normal",
+          "checks": [
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          "reason": "明确承认没有原书八问，却另编八问替代；顺序与内容不对应原书，缺似曾相识、情绪来源、关怀回应等指定问题，未完成明确要求。",
+          "critical_failure": true,
+          "pass": false
+        },
+        {
+          "case_id": "v04-boundary",
+          "checks": [
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          "reason": "给出的看物品、脚掌触地和一般需求记录可作日常替代，却未交付本书任何对应分支，并明说无法确认书中方法；用户要求用本书方法的具体范围未完成。",
+          "critical_failure": true,
+          "pass": false
+        },
+        {
+          "case_id": "v09-normal",
+          "checks": [
+            true,
+            true,
+            true,
+            false,
+            true
+          ],
+          "reason": "当前图与希望图完成用户表面要求，也保留现实验证；但跳过取回自己的意向及独立的松绑过程，直接从受束缚图跳到理想图，缺卡片关键图像转化环节。",
+          "critical_failure": true,
+          "pass": false
+        },
+        {
+          "case_id": "v12-normal",
+          "checks": [
+            true,
+            false,
+            false,
+            true,
+            true
+          ],
+          "reason": "感谢草稿具体且保留周末未解决与对方意愿未知，但把未由用户自述的“我感到被认真听见”直接写为本人体验；未标候选或请本人确认。",
+          "critical_failure": true,
+          "pass": false
+        },
+        {
+          "case_id": "v18-normal",
+          "checks": [
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "reason": "把用户概括的“上次约会失败”直接改写为“上次约会后没有继续联系”，该事实从未提供；又补写当前失望，违背把评价转成待观察而不补造信息。",
+          "critical_failure": true,
+          "pass": false
+        },
+        {
+          "case_id": "v04-container",
+          "checks": [
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "reason": "提供了可选、可停和无变化分支，也无疗效宣称；但让人想象杯盒篮接纳烦躁，未采用对应容器D的“身体是容器、可扩展，再由心中关怀照向感觉”的核心关系。",
+          "critical_failure": true,
+          "pass": false
+        },
+        {
+          "case_id": "v11-normal",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            false,
+            false,
+            true
+          ],
+          "reason": "明确承认没有原书三问而改用自拟三问，虽然诚实但未完成明确要求的原书机制；支持稿还增加未提供的“你为此付出了很多”。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v14-normal",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            true,
+            false,
+            true
+          ],
+          "reason": "有自愿煮粥、可拒绝和事实观察，但省略原案例行动后“若彼此相爱会有什么感受”与“把对方当心爱的人会怎么看”两个环节，成为一般善意行动建议。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v04-balloon",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "reason": "有自愿、安全、自然呼吸和观察变化，但未经自然表达完成且平静便进入放飞，并遗漏原分支戳破环节；没有伪造效果。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v04-body",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            true,
+            true,
+            true
+          ],
+          "reason": "给出温和放松与愉快姿态建议，但缺少表达当前感受的动作及快乐身体在旁、靠近、合一这一意象过程，属于通用放松而非指定肢体分支。",
+          "critical_failure": true
+        },
+        {
+          "case_id": "v04-faith",
+          "pass": false,
+          "checks": [
+            false,
+            true,
+            false,
+            true,
+            true
+          ],
+          "reason": "准确区分交托感受与取消责任，信仰话语可自愿修改或不用，不宣称效果；但未引导交付后观察是否感到支持，也未明确不适或无变化时可停，只有仍沉重没关系。",
+          "critical_failure": true
+        }
+      ]
+    }
+  },
+  "pair_comparison": {
+    "new_skill": 16,
+    "without_skill": 0,
+    "tie": 29
+  },
+  "results": [
+    {
+      "case_id": "v01-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "区分没有约定、希望接送与候选内在需要，明确放手意愿未知且可不愿，交付协商句。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "完成行为、候选需要和可考虑松开的要求三层区分；没有代答已放下，允许对方选择并给出协商句。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都完成辨认与可商量表达，A的字段更全不构成单独胜出理由。"
+    },
+    {
+      "case_id": "v02-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "没有从十分钟安静推定报复；指出未提供本人攻击动作，停止行为留空，并提供确认与条件性替代句。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "不诊断沉默动机，以具体情境和可观察模式核查，给出可拒绝的暂停沟通邀请。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "当前证据不足时两者都正确停止定性，并给出具体核实办法。"
+    },
+    {
+      "case_id": "v04-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "保留灰石头和变化不确定，不添加象征解释；确认自愿及可停止前提后给艺术分支，记录实施未知及现实问题。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "reason": "作品与前后感受没有被编造，也未要求改善；但在自主停止能力未知时直接指示开始画，并未给不愿或不适增加时停止的边界。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "A完整交付所选表达记录与启动停止条件；B的主要缺口是表达练习的必要前提，不是格式简短。"
+    },
+    {
+      "case_id": "v05-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确真实受害和欺骗责任，不补齐三角角色；交付保存凭证等自主可选动作，保留联系条件与结果未知。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确不把实际损失归为受害者创造；尊重只看下一步的范围，给停止新增转账、整理凭证和可选返还要求。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "都拒绝不适用的角色归责，保留实际责任并给可实施下一步。"
+    },
+    {
+      "case_id": "v07-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "将家庭相似与因果分开，给轻关门、说明暂停、按时回谈的替代方案及记录指标；受惊表述是一般影响提醒而非声称伴侣已报告感受。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "关联不推成唯一成因，尊重不追责家人的范围；具体新回应与旧动作差异清楚，尚未实施和对方反馈均留未知。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "都完成一次不同回应；B更显式标注未知，A的具体预兆和回谈安排也有实际价值。"
+    },
+    {
+      "case_id": "v08-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "不能从疲倦单独判牺牲；承诺、无内疚怨恨与拒绝感受未知分开，模式证据不足即停止，给重新商量休息的草稿。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "正确拒绝不快乐即牺牲的推断，保留既有照护责任，提出负荷与交接检查及可协商表达。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都按现实负荷处理而非硬套内疚模式，没有要求停止照护。"
+    },
+    {
+      "case_id": "v10-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "保留抢话事实，将对方动机列假设，只匹配本人已确认的怕笨感受；接纳、不编造欣赏、单轮结束与现实边界俱全。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "区分事实、动机推测与自己的担心，拒绝由相似感受推断相同行为，给基于记忆的自省问题与说话边界；允许自己不知道构成接纳。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者均完成有边界自省的关键机制；B未逐项命名欣赏与前后变化不妨碍实际任务完成。"
+    },
+    {
+      "case_id": "v11-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "承认公平职业竞争不足以推断不爱或不足，不要求为未做的破坏认错；三问仅说明用途，未强迫启动，给支持邀请。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "正确判断模型不足以归责；围绕实际申请、保密和支持商量，不替双方断言感受或迫使退让。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都正确限定适用范围，保留公平争取机会与爱可共存。"
+    },
+    {
+      "case_id": "v13-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "按每项十分计算4项优点减3项缺点为10分；去重条件、数量意义、严重伤害及去留不可推断均准确。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ],
+        "reason": "坦诚缺少原文但因此没有完成指定原书计分，以假设计数1替代卡片已提供的每项十分规则；分数的用途边界解释正确。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "请求核心是按书复算；A给正确10分，B只给普通计数并留下原本可完成的任务。"
+    },
+    {
+      "case_id": "v14-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "不把无回应当错或拒绝，不保证再做便相爱；后续观察顺序准确且未代填感受，允许停止并保留道歉和现实事务。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "直接回答无回应不能证明做错且不能保证爱，检查自愿意图与交换期待，给可选择的沟通句和暂停额外付出选项。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "此题要核对效果与归责边界，并未要求重做全套实验；两者都具体完成这一任务。"
+    },
+    {
+      "case_id": "v16-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "仅认失约和责骂两项，承认责任而不贬低人格；归还时间待本人确认，邀请回应但不索取原谅。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "草稿具体承认失约和责骂，提出核实后归还与补救，明确不要求立即原谅；“你提起”是未给出的情境小补充，宜删，但未增添需承认的错误或伪造损害。",
+        "critical_failure": false
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "两者语义核心均通过；A更贴合“只承认实际错误”，没有增写朋友提醒的情境或未经确认的多项后续承诺。"
+    },
+    {
+      "case_id": "v17-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确紧急期限下退出一般留空间练习；给事务时限、本人权限内后续和停止情绪追问，不处置对方物品。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "将必要搬家与关系沟通区分，提出具体期限、自己的搬运与核对合同等行动，保留双方权限与对方回应自由。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "都拒绝无限等待，现实事务推进具体且无借期限逼迫情感回应。"
+    },
+    {
+      "case_id": "v19-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "据本人害怕变淡与疲倦反思动机，允许害怕存在，提出亲密、自主和休息价值及可调整的我表达。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "不擅补证明有用的动机；允许担心、辨认候选价值与对方已说的独处需要，交付我表达且不裁决去留。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都完成允许、明辨和个人选择表达，没有把一晚独处推成关系失败。"
+    },
+    {
+      "case_id": "v04-energy",
+      "A": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "保留自选想象、可停止和无变化边界，但自行编排依次关注脉轮再照光，缺少先设15厘米星光及关怀对象、感觉移到最近中心逐处上移、每处至少30秒和结束致谢等关键原书步骤。",
+        "critical_failure": true
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "完整交付头顶15厘米星光、关怀对象、最近中心向上逐处至少30秒、融光返回原部位随自然呼吸相融及致谢；前提、自愿停止和体验未知均清楚。",
+        "critical_failure": false
+      },
+      "pair_comparison": "B",
+      "pair_comparison_reason": "题目明确索取原书完整分支；A的坦诚不能替代缺失机制，B保持原书顺序和最后部分。"
+    },
+    {
+      "case_id": "v04-walk",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "承认烦躁、核对身体与环境、留意步伐及路线与感觉的对应、自愿结束与真实记录齐全。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "以安全短路线承载烦躁，观察脚步并按感觉调整步速与动作，允许预设时间或提前结束且不要求平静；未声称已走或治愈。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都以活动表达感觉并允许不变；A的路线对应更贴原文，B的具体步速调整也实现核心活动机制，保留原文核对不确定不致任务失败。"
+    },
+    {
+      "case_id": "v01-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "直接分清候选内在需要与借款履约责任，不以失约证明不在乎，给出具体催还与保留记录步骤。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "六项辨认明确保留约定责任、需要候选、放手意愿未知与尚未练习，催还草稿可用。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "都准确完成区分与实际还款下一步；B的记录更完整，但本题并未要求完整练习，A已充分。"
+    },
+    {
+      "case_id": "v03-normal",
+      "A": {
+        "checks": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ],
+        "reason": "明确承认没有原书八问，却另编八问替代；顺序与内容不对应原书，缺似曾相识、情绪来源、关怀回应等指定问题，未完成明确要求。",
+        "critical_failure": true,
+        "pass": false
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "依原书八问顺序逐项整理，记忆冲突未裁决，熟悉感与来源保持未知，附核对草稿及暂停条件。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "B",
+      "pair_comparison_reason": "B完成指定八问，A提供的是另一个八问题纲。"
+    },
+    {
+      "case_id": "v04-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "拒绝强套脉轮，提供卡片内艺术与感觉说话两个自选分支，先检查能否自主停止并保留无变化及现实问题。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ],
+        "reason": "给出的看物品、脚掌触地和一般需求记录可作日常替代，却未交付本书任何对应分支，并明说无法确认书中方法；用户要求用本书方法的具体范围未完成。",
+        "critical_failure": true,
+        "pass": false
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "A提供本书可用的替代分支；B的建议有自主与停止边界，但未满足书中方法的限定。"
+    },
+    {
+      "case_id": "v06-normal",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "具体解释两端保护与损失，允许考虑两端或暂不选，提出改变假设的新方案，保留约束和伴侣意愿待验证。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "把聚会拆成场次、时长、往返和两人时间，给出多个具体第三方案，邀请伴侣提出意见并按实际体验调整。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都实际扩展了选项并给出协商验证；A更完整展示开放两端，B以可协商维度与试行完成同一实用任务。"
+    },
+    {
+      "case_id": "v07-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "不把不记得推为创伤，不逼恢复记忆，改从现在插话触发与具体等待、补救行为观察。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "家庭经历与影响均不补造，明确旧动作和新回应差别，意愿与实施状态分明，可只观察而不尝试。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者均正确停止缺乏依据的家庭归因，并提供可做的小范围新回应。"
+    },
+    {
+      "case_id": "v09-normal",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "当前束缚图、舍弃部分、感觉未知、可认领意向、松绑过程及希望图齐备，明确非伴侣要求、非已改变。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          false,
+          true
+        ],
+        "reason": "当前图与希望图完成用户表面要求，也保留现实验证；但跳过取回自己的意向及独立的松绑过程，直接从受束缚图跳到理想图，缺卡片关键图像转化环节。",
+        "critical_failure": true,
+        "pass": false
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "A含可辨识的意向和松绑过程；B只有现在与愿景两图，未执行该机制的中间步骤。"
+    },
+    {
+      "case_id": "v10-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "未匹配即停，接纳与欣赏可留空，不反推本人也泄密，保留对方责任与明确隐私边界。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "拒绝无依据认罪，探索问题保持可选且允许没想到，不以阴影证明潜藏特质，并给现实边界句。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都准确回应本题边界：无需承认不存在的同类行为，且不取消隐私责任。"
+    },
+    {
+      "case_id": "v12-normal",
+      "A": {
+        "checks": [
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        "reason": "感谢草稿具体且保留周末未解决与对方意愿未知，但把未由用户自述的“我感到被认真听见”直接写为本人体验；未标候选或请本人确认。",
+        "critical_failure": true,
+        "pass": false
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "感谢仅依据已发生倾听和本人明确感激，未补造具体感受；另问周末愿谈状态，未解决项和未知清楚。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "B",
+      "pair_comparison_reason": "B的感谢无需用户认领额外感受，A为本人补写了未经确认的体验。"
+    },
+    {
+      "case_id": "v13-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "正分不裁决去留，威胁不能被优点抵消；先核实威胁与眼前安全，提供现实支持方向而不逼继续计分。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "说明等权十分只计条目，不计严重性，缺清单不复算，停止评分并优先处理真实威胁与支持。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "都守住重要安全边界并给下一步；B解释计分机制更多，A已足以回答正分不能证明应留。"
+    },
+    {
+      "case_id": "v15-normal",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "以体力顾虑检验连走三天，示范短走、休息、可折返的逐次修订；对方补充以“可以”标示假设，不冒称接受。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "目标、首案、顾虑及修订对应清楚，展示交换检视角色，距离资源与接受状态仍未知，下一步先问具体限制。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者均示范问题发现和方案修订的合作循环，并保留须由双方确认的现实条件。"
+    },
+    {
+      "case_id": "v16-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "拒绝总责认错，先核事实与约定，缺依据不写实际认错草稿，条件示例明确不代表已发生。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "先暂停核对具体行为和影响，仅在本人已确定打断等行为时为这一点道歉，拒绝全盘认错的谈话条件。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "都没有为未知事实认罪，给出具体澄清或暂停话语，条件道歉不混成既定责任。"
+    },
+    {
+      "case_id": "v18-normal",
+      "A": {
+        "checks": [
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        "reason": "把用户概括的“上次约会失败”直接改写为“上次约会后没有继续联系”，该事实从未提供；又补写当前失望，违背把评价转成待观察而不补造信息。",
+        "critical_failure": true,
+        "pass": false
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "原话、过去评价、未来预测、价值判决分开，具体过去与感受保留待确认，开放问题不预设成功或担忧不合理。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "B",
+      "pair_comparison_reason": "B保留资料缺口，A用未经提供的无后续联系替代了未知的实际经过。"
+    },
+    {
+      "case_id": "v19-boundary",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "把个人平静与对方明确反对分开，拒绝共同最优和读心，草稿保留倾向与决定差别及待处理责任。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "拒绝用本人平静证明对方愿望，说明可为自己的结束选择负责，同时处理居住财物约定并保留未来未知。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "均准确回答不能读心与不能断言最优，承认结束可以是自己的选择而非必须获得对方同意。"
+    },
+    {
+      "case_id": "v04-container",
+      "A": {
+        "checks": [
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "提供了可选、可停和无变化分支，也无疗效宣称；但让人想象杯盒篮接纳烦躁，未采用对应容器D的“身体是容器、可扩展，再由心中关怀照向感觉”的核心关系。",
+        "critical_failure": true,
+        "pass": false
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "按身体容器、可扩展空间、心中温暖照向感觉并观察所想来引导，确认自主停止，保留无法想象、不适与无变化结束分支。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "B",
+      "pair_comparison_reason": "A改成外部容器练习；B完整执行指定的身体容器及温暖关怀机制。"
+    },
+    {
+      "case_id": "v04-voice",
+      "A": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "以“如果……也许”给多句试探，贴近与否由本人核对，允许全删、说不清或不适即停，未作潜意识断言。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "B": {
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "询问感觉想说什么，候选句可删可改，自主停止前提与无变化记录清楚，现实沟通另处理。",
+        "critical_failure": false,
+        "pass": true
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两者都完成试探性表达与本人确认的核心机制，未把猜测当事实；B的状态记录更多，不改变任务完成度。"
+    },
+    {
+      "case_id": "v02-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "准确以本人承认的羞辱意图识别公开攻击与报复，区分双方责任，提出停止行为和直接感受替代句，实际影响保留未知。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        "reason": "完成报复识别、本人责任和具体替代句；但把未说明发生场合的上次笑话写成“当众”，且道歉稿把对方受伤写得较确定。这是局部事实越界，未破坏停止报复这一核心任务。",
+        "critical_failure": false
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "两版均完成核心任务；A更准确保留上次事件场合和对方影响的未知。"
+    },
+    {
+      "case_id": "v03-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "先只询问一个原话或动作片段；八问按原顺序标未知，来源不强挖，有暂停草稿及下一步。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "只询问一个争吵片段，记不起时允许只报感受；符合本题“启动、先问最少信息”，尚未要求一次完成八问，未编造经历。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版都实现最低信息启动；A列出全框架并不使其自动更优，B暂不展开符合题意。"
+    },
+    {
+      "case_id": "v05-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "按可追踪言行识别包办、责怪、委屈三个位置，非人格标签；保留未知，提供归还决定权及可拒绝帮助的草稿。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "具体识别同一轮三种位置的变化，不把哭泣定人格；承担包办与辱骂责任，归还决定权并允许拒绝支持。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版均给出有依据的角色转换与可执行退出动作。"
+    },
+    {
+      "case_id": "v06-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "威胁情境下停止两难练习，把安全行动与后续关系决定分开，给出条件性撤离、求助指引，未要求平静或继续说服。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确威胁中不宜用两难法决定留场，给出有条件离开和求助步骤，关系选择留待安全后，不保证对方不会动手。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "均先处理适用范围并将现实保护置于关系练习之前。"
+    },
+    {
+      "case_id": "v08-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "辨认内疚和期待感谢的线索但不武断定性；保留未承诺事实，具体愿做范围用填空留本人选择，内疚可暂存。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "区分牺牲线索与确定结论，承认未有固定承诺；给出清楚标示为例子的限量帮助句，并允许实际不愿做任何部分。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版都形成自愿范围草稿且不把对方定为强迫者；示例与填空均合适。"
+    },
+    {
+      "case_id": "v09-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "否定必须画到平静的标准，允许本轮结束，保留冲突和对方尚未承诺事实，并区分愿景与现实行动。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "允许停笔、不以平静证明不依附，区分本人可做事项与双方同意事项，将愿望转为可拒绝请求并待观察。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "均切中停止边界与愿景不等于现实改变，不需重做整套画图。"
+    },
+    {
+      "case_id": "v11-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "准确保留伴侣、自己独特天分、真实是否值得承认竞争这三个原书问题；不代答意愿，有承认稿及倾听支持动作。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        "reason": "明确承认没有原书三问而改用自拟三问，虽然诚实但未完成明确要求的原书机制；支持稿还增加未提供的“你为此付出了很多”。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "A完成指定三问；B以通用问题替换，属于核心任务缺失。"
+    },
+    {
+      "case_id": "v12-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确找不到真实感谢点可不表达，不改写侮辱；提供暂停边界句，保留责任及分歧，不保证化解。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "拒绝违心感谢，有具体边界句，自己的责任条件性另谈；保留对方侮辱责任及冲突结果的不确定。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版都正确停止感谢练习并给出可用替代。"
+    },
+    {
+      "case_id": "v14-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "保留融洽想象→自主行动→行动中或后感受→观看对方→真实反馈顺序；粥的偏好有输入依据且行动可拒绝，结果不预填。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          true,
+          false,
+          true
+        ],
+        "reason": "有自愿煮粥、可拒绝和事实观察，但省略原案例行动后“若彼此相爱会有什么感受”与“把对方当心爱的人会怎么看”两个环节，成为一般善意行动建议。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "本题明确请求书中小实验，B缺失感受与观看的核心机制，不因安全、实用就视为完成原任务。"
+    },
+    {
+      "case_id": "v15-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确单方推演不能替代真实参与和同意，猜测待核；只留单方草案及可拒绝邀请，期限与自行决定权限分开。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "拒绝虚构双赢，暂停共同迭代，提供单方记录和待核内容；只留可拒绝邀请，现实期限义务另行处理。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版均保留拒谈和未授权事实，不虚构合作结果。"
+    },
+    {
+      "case_id": "v17-normal",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "可拒绝邀请后真正停问，不借共同朋友催；空间不等于认同、解决或无限等候，未来回应不预判。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "有具体一次邀请及停止追问动作；明确空间不是认同、放弃需求或回应交换，后续自由选择及对方意愿保留。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版都实现不逼迫邀请并说明空间不代表什么，无重要优劣。"
+    },
+    {
+      "case_id": "v18-boundary",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "不把对他人连续说谎的怀疑硬改为自我否定，分列已核事实、未核不一致及预测，给核实问题并保留本卡能力边界。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "明确事实依据下怀疑可有合理性，提供承诺、期限及结果核对例句，合法隐私边界清楚；允许根据继续失信调整关系选择。",
+        "critical_failure": false
+      },
+      "pair_comparison": "tie",
+      "pair_comparison_reason": "两版均维护现实核查和责任，不用内在反思取消警讯。"
+    },
+    {
+      "case_id": "v04-balloon",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "提供自然呼气装入可扩张气球的具体分支；仅自然表达够且平静才自愿放飞、戳破，没变化或不适可停，体验未报告。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "有自愿、安全、自然呼吸和观察变化，但未经自然表达完成且平静便进入放飞，并遗漏原分支戳破环节；没有伪造效果。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "本题判据要求对应分支完整，B改变了释放的条件与末段步骤。"
+    },
+    {
+      "case_id": "v04-body",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "先用轻松动作表达现有烦躁，再想象快乐身体在旁、靠近、合一，最后允许自主表达、不动或停；体验未知且不强迫合一。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "给出温和放松与愉快姿态建议，但缺少表达当前感受的动作及快乐身体在旁、靠近、合一这一意象过程，属于通用放松而非指定肢体分支。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "B虽符合非剧烈、自愿和不伪造结果，核心意象步骤缺失。"
+    },
+    {
+      "case_id": "v04-faith",
+      "A": {
+        "pass": true,
+        "checks": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "reason": "先承认问题，按本人信仰交付暂不能承受的感受，再观察支持感；保留明天行动，明确无变化或不适可停，实际结果未知。",
+        "critical_failure": false
+      },
+      "B": {
+        "pass": false,
+        "checks": [
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        "reason": "准确区分交托感受与取消责任，信仰话语可自愿修改或不用，不宣称效果；但未引导交付后观察是否感到支持，也未明确不适或无变化时可停，只有仍沉重没关系。",
+        "critical_failure": true
+      },
+      "pair_comparison": "A",
+      "pair_comparison_reason": "B解释和责任边界合格，但指定分支的支持感观察与停止分支缺失。"
+    }
+  ],
+  "private_mapping": {
+    "v01-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v02-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v04-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v05-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v07-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v08-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v10-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v11-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v13-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v14-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v16-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v17-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v19-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v04-energy": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v04-walk": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v01-boundary": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v03-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v04-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v06-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v07-boundary": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v09-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v10-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v12-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v13-boundary": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v15-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v16-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v18-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v19-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v04-container": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v04-voice": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v02-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v03-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v05-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v06-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v08-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v09-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v11-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v12-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v14-normal": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v15-boundary": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v17-normal": {
+      "A": "without_skill",
+      "B": "new_skill"
+    },
+    "v18-boundary": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v04-balloon": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v04-body": {
+      "A": "new_skill",
+      "B": "without_skill"
+    },
+    "v04-faith": {
+      "A": "new_skill",
+      "B": "without_skill"
+    }
+  }
+}

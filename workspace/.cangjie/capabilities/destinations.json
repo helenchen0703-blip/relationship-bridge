@@ -1,0 +1,62 @@
+{
+  "bundle_id": "bundle.relationship-bridge",
+  "destinations": {
+    "cap.relationship-bridge.expectation-needs": {
+      "promoted_to": "expectation-needs"
+    },
+    "cap.relationship-bridge.conflict-behaviors": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.eight-question-dialogue": {
+      "promoted_to": "eight-question-dialogue"
+    },
+    "cap.relationship-bridge.feeling-expression": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.drama-triangle": {
+      "promoted_to": "drama-triangle"
+    },
+    "cap.relationship-bridge.beyond-two-options": {
+      "promoted_to": "beyond-two-options"
+    },
+    "cap.relationship-bridge.family-response-patterns": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.willing-giving": {
+      "promoted_to": "willing-giving"
+    },
+    "cap.relationship-bridge.attachment-images": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.shadow-self-reflection": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.partner-competition": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.sincere-appreciation": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.partner-double-list": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.loving-action-experiment": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.perspective-cooperation": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.specific-apology": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.space-to-talk": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.self-doubt-inquiry": {
+      "served_by": "relationship-bridge-router"
+    },
+    "cap.relationship-bridge.values-and-choice": {
+      "served_by": "relationship-bridge-router"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "expectation-needs",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      27
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "a87d404a9f801f7bdf00b7a8486bc6d202c1ab2b070dc56844dd85d773e84ade"
+  },
+  {
+    "slug": "conflict-behaviors",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      28
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "b1b555152df2800112f15942146be1bb791fc9fdc92047b4a1be5c80a7e103c7"
+  },
+  {
+    "slug": "eight-question-dialogue",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      13
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "6e1051bb0f14cb33fce99fc29993ba48140f3275ce98755a980c8d9828be19dc"
+  },
+  {
+    "slug": "feeling-expression",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      19
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "ffdc6db38d48952982e2e682e3c6bdb24ef8137256121b15d2c19afd955747cd"
+  },
+  {
+    "slug": "drama-triangle",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      48
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "9761ecc03e33e3b0b85a1310de648ef5e90a4ba8bf52b6e01ef76132ee3e5b86"
+  },
+  {
+    "slug": "beyond-two-options",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      24
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "6cf465ce78ae6056af883e2e727adf59118b0e3474fc2b806519ebcd938cae43"
+  },
+  {
+    "slug": "family-response-patterns",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      19
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "dfbdf433635f37990651699fdbeebd07592a83632336da55dc88d777845421dd"
+  },
+  {
+    "slug": "willing-giving",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      54
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "3b90fba79dde49f874f29cc60a50aa4f99424ecb505972e60e4516e7710fcfbc"
+  },
+  {
+    "slug": "attachment-images",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      49
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "696f33a8aa4ac1b0303a750ef33aa2c1cd27515d376c7f4a3ac09255445329d7"
+  },
+  {
+    "slug": "shadow-self-reflection",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      39
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "f0277f0833040c8df0f3862aeb2ceec3d9ee7215f80e253cff0f588b7701831c"
+  },
+  {
+    "slug": "partner-competition",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      37
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "105c65026f4ec2ceb3ea3bd0073e6417a1fe06cd806104461d373620cce624bc"
+  },
+  {
+    "slug": "sincere-appreciation",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      31
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "d08bb3948359db088f5b387498551312f730f95754756a697f03245bb42e7a2c"
+  },
+  {
+    "slug": "partner-double-list",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      43
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "2e789a0d68e6f66c6195bc8d1e99f9980b05fa5d0da1af5a38b3da260a7527e1"
+  },
+  {
+    "slug": "loving-action-experiment",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      39
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "f7b9085dcd42191989863ec16bc2c9737f8b061982a8a78df6218ac0d692abcb"
+  },
+  {
+    "slug": "perspective-cooperation",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      42
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "373a2830c3021f3f66a8363fb8d04e2211ba2a6e4e17c95853d8d8a9b8c24272"
+  },
+  {
+    "slug": "specific-apology",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      20
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "ecdbee2dfb8ae1abb350b6ea833731902bb09c7132aa913bc1e98739a12acc26"
+  },
+  {
+    "slug": "space-to-talk",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      41
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "58930a268b1fad252e0532f2aae4a612b020edb597cfe5f739011e0d84d68408"
+  },
+  {
+    "slug": "self-doubt-inquiry",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      27
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "6e75839cd01b4eaa511d57f1044d80c889faf91d96c5706b53cd1e2b69ddc21e"
+  },
+  {
+    "slug": "values-and-choice",
+    "sections": [
+      "R",
+      "I",
+      "A1",
+      "A2",
+      "E",
+      "B"
+    ],
+    "quote_lengths": [
+      30
+    ],
+    "quotes_match_normalized": true,
+    "sha256": "ccd56e2da902ff139b109b98244f3d05f5b921bc7f09f6c7b8935ef6a6c70417"
+  }
+]

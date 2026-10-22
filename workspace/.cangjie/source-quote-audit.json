@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "f01",
+    "location": "PDF文件页序 37（1起算）",
+    "quote_chars": 36,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f02",
+    "location": "PDF文件页序 55–57（1起算）",
+    "quote_chars": 27,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f03",
+    "location": "PDF文件页序 64–65、127（1起算）",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f04",
+    "location": "PDF文件页序 70–76、81–85（1起算）",
+    "quote_chars": 36,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f05",
+    "location": "PDF文件页序 86–90（1起算）",
+    "quote_chars": 31,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f06",
+    "location": "PDF文件页序 96–97（1起算）",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f07",
+    "location": "PDF文件页序 98–100、132–133（1起算）",
+    "quote_chars": 35,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f08",
+    "location": "PDF文件页序 109–117、128（1起算）",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f09",
+    "location": "PDF文件页序 113–114、132（1起算）",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f10",
+    "location": "PDF文件页序 118–120、134（1起算）",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f11",
+    "location": "PDF文件页序 123–124（1起算）",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f12",
+    "location": "PDF文件页序 128–129（1起算）",
+    "quote_chars": 29,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f13",
+    "location": "PDF文件页序 129（1起算）",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f14",
+    "location": "PDF文件页序 129（1起算）",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f15",
+    "location": "PDF文件页序 129（1起算）",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f16",
+    "location": "PDF文件页序 130（1起算）",
+    "quote_chars": 21,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f17",
+    "location": "PDF文件页序 130（1起算）",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f18",
+    "location": "PDF文件页序 130（1起算）",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f19",
+    "location": "PDF文件页序 130（1起算）",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f20",
+    "location": "PDF文件页序 130–131（1起算）",
+    "quote_chars": 28,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f21",
+    "location": "PDF文件页序 131（1起算）",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f22",
+    "location": "PDF文件页序 131、134（1起算）",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f23",
+    "location": "PDF文件页序 131、134（1起算）",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f24",
+    "location": "PDF文件页序 132–133、137（1起算）",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f25",
+    "location": "PDF文件页序 133（1起算）",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f26",
+    "location": "PDF文件页序 151–162、211–212（1起算）",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f27",
+    "location": "PDF文件页序 159–160（1起算）",
+    "quote_chars": 29,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f28",
+    "location": "PDF文件页序 163–167、212（1起算）",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f29",
+    "location": "PDF文件页序 168–174、212（1起算）",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f30",
+    "location": "PDF文件页序 175–182、212–213（1起算）",
+    "quote_chars": 30,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f31",
+    "location": "PDF文件页序 183–185、217注34（1起算）",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f32",
+    "location": "PDF文件页序 187–189、213（1起算）",
+    "quote_chars": 34,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f33",
+    "location": "PDF文件页序 192–194、213（1起算）",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f34",
+    "location": "PDF文件页序 196–197、213（1起算）",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f35",
+    "location": "PDF文件页序 198–200、213（1起算）",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f36",
+    "location": "PDF文件页序 201–202、213、218（1起算）",
+    "quote_chars": 30,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f37",
+    "location": "PDF文件页序 203–210、214（1起算）",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f38",
+    "location": "PDF文件页序 222–224（1起算）",
+    "quote_chars": 34,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "f39",
+    "location": "PDF文件页序 230–236（1起算）",
+    "quote_chars": 31,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p01",
+    "location": "PDF页序 37",
+    "quote_chars": 25,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p02",
+    "location": "PDF页序 59",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p03",
+    "location": "PDF页序 56",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p04",
+    "location": "PDF页序 55–56",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p05",
+    "location": "PDF页序 56–57",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p06",
+    "location": "PDF页序 54–55",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p07",
+    "location": "PDF页序 87–90",
+    "quote_chars": 31,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p08",
+    "location": "PDF页序 92；135注13；136注26",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p09",
+    "location": "PDF页序 96–97",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p10",
+    "location": "PDF页序 99",
+    "quote_chars": 25,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p11",
+    "location": "PDF页序 109–117",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p12",
+    "location": "PDF页序 109–110；119",
+    "quote_chars": 6,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p13",
+    "location": "PDF页序 111–112",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p14",
+    "location": "PDF页序 112–113",
+    "quote_chars": 21,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p15",
+    "location": "PDF页序 114",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p16",
+    "location": "PDF页序 115",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p17",
+    "location": "PDF页序 118",
+    "quote_chars": 32,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p18",
+    "location": "PDF页序 118",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p19",
+    "location": "PDF页序 123–124",
+    "quote_chars": 21,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p20",
+    "location": "PDF页序 128–131",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p21",
+    "location": "PDF页序 129",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p22",
+    "location": "PDF页序 129",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p23",
+    "location": "PDF页序 130",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p24",
+    "location": "PDF页序 130",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p25",
+    "location": "PDF页序 130–131",
+    "quote_chars": 27,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p26",
+    "location": "PDF页序 131",
+    "quote_chars": 34,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p27",
+    "location": "PDF页序 132；137注39",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p28",
+    "location": "PDF页序 133",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p29",
+    "location": "PDF页序 131；133–134",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p30",
+    "location": "PDF页序 134",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p31",
+    "location": "PDF页序 139；209–210",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p32",
+    "location": "PDF页序 156–161",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p33",
+    "location": "PDF页序 160–161；211–212",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p34",
+    "location": "PDF页序 166–167；212",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p35",
+    "location": "PDF页序 168–174",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p36",
+    "location": "PDF页序 176",
+    "quote_chars": 35,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p37",
+    "location": "PDF页序 181",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p38",
+    "location": "PDF页序 183–185",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p39",
+    "location": "PDF页序 187–189",
+    "quote_chars": 34,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p40",
+    "location": "PDF页序 193–194",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p41",
+    "location": "PDF页序 199–200；213",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p42",
+    "location": "PDF页序 207–209",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p43",
+    "location": "PDF页序 223–224",
+    "quote_chars": 34,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p44",
+    "location": "PDF页序 231–233",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p45",
+    "location": "PDF页序 234–236",
+    "quote_chars": 30,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p46",
+    "location": "PDF页序 135注12",
+    "quote_chars": 31,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "p47",
+    "location": "PDF页序 240注3",
+    "quote_chars": 7,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c01",
+    "location": "PDF 文件页序 23–24",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c02",
+    "location": "PDF 文件页序 26–28",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c03",
+    "location": "PDF 文件页序 34–35",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c04",
+    "location": "PDF 文件页序 42–43",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c05",
+    "location": "PDF 文件页序 45–46",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c06",
+    "location": "PDF 文件页序 47–49",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c07",
+    "location": "PDF 文件页序 50–51",
+    "quote_chars": 25,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c08",
+    "location": "PDF 文件页序 51–53",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c09",
+    "location": "PDF 文件页序 55–56",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c10",
+    "location": "PDF 文件页序 60 注9",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c11",
+    "location": "PDF 文件页序 68–69",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c12",
+    "location": "PDF 文件页序 71",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c13",
+    "location": "PDF 文件页序 72–73",
+    "quote_chars": 6,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c14",
+    "location": "PDF 文件页序 75–76",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c15",
+    "location": "PDF 文件页序 77–78、88",
+    "quote_chars": 8,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c16",
+    "location": "PDF 文件页序 79–80",
+    "quote_chars": 10,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c17",
+    "location": "PDF 文件页序 81–84、86–87",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c18",
+    "location": "PDF 文件页序 87–88",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c19",
+    "location": "PDF 文件页序 89–90",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c20",
+    "location": "PDF 文件页序 91–92",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c21",
+    "location": "PDF 文件页序 96–97",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c22",
+    "location": "PDF 文件页序 101–108",
+    "quote_chars": 7,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c23",
+    "location": "PDF 文件页序 111",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c24",
+    "location": "PDF 文件页序 112–113",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c25",
+    "location": "PDF 文件页序 118",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c26",
+    "location": "PDF 文件页序 119–120",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c27",
+    "location": "PDF 文件页序 122–123、136注31",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c28",
+    "location": "PDF 文件页序 130",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c29",
+    "location": "PDF 文件页序 133",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c30",
+    "location": "PDF 文件页序 153–155、215注17",
+    "quote_chars": 27,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c31",
+    "location": "PDF 文件页序 157",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c32",
+    "location": "PDF 文件页序 160",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c33",
+    "location": "PDF 文件页序 163–164",
+    "quote_chars": 26,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c34",
+    "location": "PDF 文件页序 164–167",
+    "quote_chars": 21,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c35",
+    "location": "PDF 文件页序 169–170",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c36",
+    "location": "PDF 文件页序 170–174",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c37",
+    "location": "PDF 文件页序 176",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c38",
+    "location": "PDF 文件页序 179–180",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c39",
+    "location": "PDF 文件页序 186–187",
+    "quote_chars": 29,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c40",
+    "location": "PDF 文件页序 187–188",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c41",
+    "location": "PDF 文件页序 190",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c42",
+    "location": "PDF 文件页序 190–191",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c43",
+    "location": "PDF 文件页序 191",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c44",
+    "location": "PDF 文件页序 192–194",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c45",
+    "location": "PDF 文件页序 198–200",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c46",
+    "location": "PDF 文件页序 201",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c47",
+    "location": "PDF 文件页序 203–205、218注45",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c48",
+    "location": "PDF 文件页序 220",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c49",
+    "location": "PDF 文件页序 222–224、227注3",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c50",
+    "location": "PDF 文件页序 225",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c51",
+    "location": "PDF 文件页序 230–231",
+    "quote_chars": 10,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c52",
+    "location": "PDF 文件页序 236",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c53",
+    "location": "PDF 文件页序 216 注29",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "c54",
+    "location": "PDF 文件页序 217 注34",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce01",
+    "location": "PDF 34–35",
+    "quote_chars": 9,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce02",
+    "location": "PDF 37",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce03",
+    "location": "PDF 48–49",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce04",
+    "location": "PDF 50–51",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce05",
+    "location": "PDF 52–55",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce06",
+    "location": "PDF 64–65",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce07",
+    "location": "PDF 66–67",
+    "quote_chars": 11,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce08",
+    "location": "PDF 86–87",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce09",
+    "location": "PDF 88",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce10",
+    "location": "PDF 88–89",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce11",
+    "location": "PDF 89–90",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce12",
+    "location": "PDF 91–92",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce13",
+    "location": "PDF 96–97",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce14",
+    "location": "PDF 99–104",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce15",
+    "location": "PDF 110",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce16",
+    "location": "PDF 111–112",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce17",
+    "location": "PDF 118–120",
+    "quote_chars": 25,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce18",
+    "location": "PDF 118",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce19",
+    "location": "PDF 122–124",
+    "quote_chars": 8,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce20",
+    "location": "PDF 131",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce21",
+    "location": "PDF 133",
+    "quote_chars": 21,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce22",
+    "location": "PDF 152–159",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce23",
+    "location": "PDF 161",
+    "quote_chars": 9,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce24",
+    "location": "PDF 164–166",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce25",
+    "location": "PDF 168–173",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce26",
+    "location": "PDF 175–181",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce27",
+    "location": "PDF 179–180",
+    "quote_chars": 13,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce28",
+    "location": "PDF 213–217",
+    "quote_chars": 14,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce29",
+    "location": "PDF 186–189",
+    "quote_chars": 7,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce30",
+    "location": "PDF 190–194",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce31",
+    "location": "PDF 198–200",
+    "quote_chars": 18,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce32",
+    "location": "PDF 205–209",
+    "quote_chars": 20,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce33",
+    "location": "PDF 139–209",
+    "quote_chars": 21,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce34",
+    "location": "PDF 220–226",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce35",
+    "location": "PDF 230–233",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "ce36",
+    "location": "PDF 231",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g01",
+    "location": "PDF文件页序 39（1起算）",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g02",
+    "location": "PDF文件页序 44（1起算）",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g03",
+    "location": "PDF文件页序 56（1起算）",
+    "quote_chars": 27,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g04",
+    "location": "PDF文件页序 59（1起算）",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g05",
+    "location": "PDF文件页序 56（1起算）",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g06",
+    "location": "PDF文件页序 55（1起算）",
+    "quote_chars": 19,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g07",
+    "location": "PDF文件页序 64（1起算）",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g08",
+    "location": "PDF文件页序 87（1起算）",
+    "quote_chars": 15,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g09",
+    "location": "PDF文件页序 88（1起算）",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g10",
+    "location": "PDF文件页序 89（1起算）",
+    "quote_chars": 12,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g11",
+    "location": "PDF文件页序 93（1起算）",
+    "quote_chars": 37,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g12",
+    "location": "PDF文件页序 142（1起算）",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g13",
+    "location": "PDF文件页序 151（1起算）",
+    "quote_chars": 24,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g14",
+    "location": "PDF文件页序 154（1起算）",
+    "quote_chars": 28,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g15",
+    "location": "PDF文件页序 160（1起算）",
+    "quote_chars": 28,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g16",
+    "location": "PDF文件页序 166（1起算）",
+    "quote_chars": 25,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g17",
+    "location": "PDF文件页序 168（1起算）",
+    "quote_chars": 23,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g18",
+    "location": "PDF文件页序 176（1起算）",
+    "quote_chars": 9,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g19",
+    "location": "PDF文件页序 177（1起算）",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g20",
+    "location": "PDF文件页序 185（1起算）",
+    "quote_chars": 17,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g21",
+    "location": "PDF文件页序 188（1起算）",
+    "quote_chars": 22,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g22",
+    "location": "PDF文件页序 192（1起算）",
+    "quote_chars": 25,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g23",
+    "location": "PDF文件页序 203（1起算）",
+    "quote_chars": 16,
+    "normalized_match_in_declared_pages": true
+  },
+  {
+    "id": "g24",
+    "location": "PDF文件页序 233（1起算）",
+    "quote_chars": 33,
+    "normalized_match_in_declared_pages": true
+  }
+]

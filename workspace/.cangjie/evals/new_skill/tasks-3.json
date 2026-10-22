@@ -1,0 +1,77 @@
+[
+  {
+    "case_id": "v02-normal",
+    "prompt": "我故意当着朋友说伴侣笨，希望他丢脸，觉得这样他才知道上次笑话我有多痛。请检查我自己的报复行为并写一句可替换的表达。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v02-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/conflict-behaviors.md"
+  },
+  {
+    "case_id": "v03-boundary",
+    "prompt": "我只知道我们吵了架，现在说不出发生什么、想要什么。请帮我启动沟通八问，先问最少信息，不补童年故事。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v03-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/eight-question-dialogue.md"
+  },
+  {
+    "case_id": "v05-normal",
+    "prompt": "我替妹妹决定她的约会安排，她拒绝后我说她不识好歹，接着又哭着说谁都不体谅我。帮我看见自己角色的变化及下一步。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v05-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/drama-triangle.md"
+  },
+  {
+    "case_id": "v06-boundary",
+    "prompt": "对方今天威胁要打我，我害怕。我想用两难法判断该不该继续留在现场说服他。请先处理这个方法的适用范围。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v06-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/beyond-two-options.md"
+  },
+  {
+    "case_id": "v08-normal",
+    "prompt": "我没答应帮伴侣每周整理资料，但每次拒绝就内疚，做了又希望他感激。我想判断是不是在牺牲，试着说出真正愿意做的部分。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v08-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/willing-giving.md"
+  },
+  {
+    "case_id": "v09-boundary",
+    "prompt": "我画了希望相处的图，仍然不安，对方也没承诺任何改变。是不是要一直画到完全平静，才能说明我不再依附？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v09-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/attachment-images.md"
+  },
+  {
+    "case_id": "v11-normal",
+    "prompt": "伴侣升职，我马上说其实我赚得更多，怕别人觉得我没用。我愿意承认自己的较劲，请用书中三问整理并给一个支持动作。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v11-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/partner-competition.md"
+  },
+  {
+    "case_id": "v12-boundary",
+    "prompt": "对方刚侮辱我，我找不到真心感谢的事。是否必须说谢谢才能化解冲突？我不愿意说违心话。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v12-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/sincere-appreciation.md"
+  },
+  {
+    "case_id": "v14-normal",
+    "prompt": "我们已停止争论，没有待处理的失约。我想试书中假设已经相处融洽的小实验，伴侣喜欢我煮粥。我可以做什么、怎样观察，不能保证他领情。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v14-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/loving-action-experiment.md"
+  },
+  {
+    "case_id": "v15-boundary",
+    "prompt": "我们对方案有分歧，但对方明确拒绝讨论。我能不能自己做完两边的发言并说双方已达成双赢？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v15-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/perspective-cooperation.md"
+  },
+  {
+    "case_id": "v17-normal",
+    "prompt": "朋友现在说不想聊我们的误会，没有急事。我一追问他就退缩。帮我写不逼迫的邀请，并说清给空间不代表什么。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v17-normal",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/space-to-talk.md"
+  },
+  {
+    "case_id": "v18-boundary",
+    "prompt": "对方连续说谎，我开始怀疑他的承诺。所有怀疑是不是都只是我的自我怀疑，所以我不该再核实事实？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v18-boundary",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/self-doubt-inquiry.md"
+  },
+  {
+    "case_id": "v04-balloon",
+    "prompt": "我想用气球想象表达日常烦躁，我愿意想象，但现在还没觉得平静。请给具体练习和没变化时的处理，不替我报告结果。\n请完成任务并返回JSON对象：case_id=\"v04-balloon\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/feeling-expression.md"
+  },
+  {
+    "case_id": "v04-body",
+    "prompt": "我想用轻松姿势和快乐身体的意象表达烦躁，能自主停止，不想做剧烈动作。请给具体步骤，保留实际体验未知。\n请完成任务并返回JSON对象：case_id=\"v04-body\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/feeling-expression.md"
+  },
+  {
+    "case_id": "v04-faith",
+    "prompt": "我愿用自己的信仰语言交付沉重感受，但还有明天必须处理的事情。请说明释放重负与否认问题的区别，并给可自愿采用的引导。\n请完成任务并返回JSON对象：case_id=\"v04-faith\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。",
+    "card_path": "/Users/sherylchen0703/Documents/Codex/2026-10-22/new-chat/outputs/books/relationship-bridge-to-the-soul/.cangjie/capabilities/cards/feeling-expression.md"
+  }
+]

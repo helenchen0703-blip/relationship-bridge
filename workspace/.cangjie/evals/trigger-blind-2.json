@@ -1,0 +1,82 @@
+[
+  {
+    "case_id": "route-V02",
+    "prompt": "我故意当着朋友说伴侣笨，希望他丢脸，觉得这样他才知道上次笑话我有多痛。请检查我自己的报复行为并写一句可替换的表达。"
+  },
+  {
+    "case_id": "route-V05",
+    "prompt": "我替妹妹决定她的约会安排，她拒绝后我说她不识好歹，接着又哭着说谁都不体谅我。帮我看见自己角色的变化及下一步。"
+  },
+  {
+    "case_id": "route-V08",
+    "prompt": "我没答应帮伴侣每周整理资料，但每次拒绝就内疚，做了又希望他感激。我想判断是不是在牺牲，试着说出真正愿意做的部分。"
+  },
+  {
+    "case_id": "route-V11",
+    "prompt": "伴侣升职，我马上说其实我赚得更多，怕别人觉得我没用。我愿意承认自己的较劲，请用书中三问整理并给一个支持动作。"
+  },
+  {
+    "case_id": "route-V14",
+    "prompt": "我们已停止争论，没有待处理的失约。我想试书中假设已经相处融洽的小实验，伴侣喜欢我煮粥。我可以做什么、怎样观察，不能保证他领情。"
+  },
+  {
+    "case_id": "route-V17",
+    "prompt": "朋友现在说不想聊我们的误会，没有急事。我一追问他就退缩。帮我写不逼迫的邀请，并说清给空间不代表什么。"
+  },
+  {
+    "case_id": "expectation-needs-positive-1",
+    "prompt": "我和伴侣没有约定每天送我上班，但我总觉得他不送就是我不重要。帮我分清我想要他做什么、我心里的需要、我愿不愿意放下什么。"
+  },
+  {
+    "case_id": "expectation-needs-negative-1",
+    "prompt": "请告诉我加拿大首都是什么。"
+  },
+  {
+    "case_id": "expectation-needs-router",
+    "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。"
+  },
+  {
+    "case_id": "eight-question-dialogue-positive-2",
+    "prompt": "我们吵起来了，想整理事实、感受与一段可说的对话"
+  },
+  {
+    "case_id": "eight-question-dialogue-negative-2",
+    "prompt": "只想知道这本书的作者和版本，不要给练习。"
+  },
+  {
+    "case_id": "eight-question-dialogue-edge",
+    "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。"
+  },
+  {
+    "case_id": "drama-triangle-positive-3",
+    "prompt": "请用看见戏剧三角的角色循环帮我整理一次普通的关系互动。"
+  },
+  {
+    "case_id": "drama-triangle-sibling",
+    "prompt": "我觉得要么陪伴侣去所有聚会，要么以后都不参加。前者没有独处，后者怕疏远。帮我探索两个之外的选项。"
+  },
+  {
+    "case_id": "beyond-two-options-positive-1",
+    "prompt": "我觉得要么陪伴侣去所有聚会，要么以后都不参加。前者没有独处，后者怕疏远。帮我探索两个之外的选项。"
+  },
+  {
+    "case_id": "beyond-two-options-negative-1",
+    "prompt": "请告诉我加拿大首都是什么。"
+  },
+  {
+    "case_id": "beyond-two-options-router",
+    "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。"
+  },
+  {
+    "case_id": "willing-giving-positive-2",
+    "prompt": "我说不内疚、答应又怨，想区分自愿付出与牺牲"
+  },
+  {
+    "case_id": "willing-giving-negative-2",
+    "prompt": "只想知道这本书的作者和版本，不要给练习。"
+  },
+  {
+    "case_id": "willing-giving-edge",
+    "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。"
+  }
+]

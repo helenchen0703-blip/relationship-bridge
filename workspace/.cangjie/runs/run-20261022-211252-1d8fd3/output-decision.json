@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "requested": "auto",
+  "selected": "single",
+  "decision_policy": "single-first-v1",
+  "skill_budget": 8,
+  "promoted_count": 5,
+  "capability_count": 19,
+  "reasons": [
+    "5 个能力通过晋级门，但触发验证阈值为 TBD-after-baseline 尚未启用；按 single-first 原则先推荐 single，拆分由使用证据驱动"
+  ],
+  "alternative": "compact pack（1 个来源路由入口 + 5 个晋级 Skill，共 6 个可发现入口）",
+  "user_confirmed": false,
+  "preserve_strategy_on_update": true
+}

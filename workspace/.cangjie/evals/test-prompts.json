@@ -1,0 +1,419 @@
+{
+  "skill": "relationship-bridge",
+  "version": "0.1.0",
+  "test_cases": [
+    {
+      "id": "route-V01",
+      "type": "should_trigger",
+      "prompt": "我和伴侣没有约定每天送我上班，但我总觉得他不送就是我不重要。帮我分清我想要他做什么、我心里的需要、我愿不愿意放下什么。",
+      "expected_behavior": "由expectation-needs处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V02",
+      "type": "should_trigger",
+      "prompt": "我故意当着朋友说伴侣笨，希望他丢脸，觉得这样他才知道上次笑话我有多痛。请检查我自己的报复行为并写一句可替换的表达。",
+      "expected_behavior": "由conflict-behaviors处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V03",
+      "type": "should_trigger",
+      "prompt": "我以为今晚要一起吃饭，伴侣说我们从没约定。我还没查聊天记录，很失落。请用本书沟通八问逐项整理，不替我决定谁记错。",
+      "expected_behavior": "由eight-question-dialogue处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V04",
+      "type": "should_trigger",
+      "prompt": "我和朋友小争执后有点烦，愿意用艺术家的方法表达。我画面里像一块灰色石头，但不知道心情有没有改变。帮我完成一份表达记录。",
+      "expected_behavior": "由feeling-expression处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V05",
+      "type": "should_trigger",
+      "prompt": "我替妹妹决定她的约会安排，她拒绝后我说她不识好歹，接着又哭着说谁都不体谅我。帮我看见自己角色的变化及下一步。",
+      "expected_behavior": "由drama-triangle处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V06",
+      "type": "should_trigger",
+      "prompt": "我觉得要么陪伴侣去所有聚会，要么以后都不参加。前者没有独处，后者怕疏远。帮我探索两个之外的选项。",
+      "expected_behavior": "由beyond-two-options处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V07",
+      "type": "should_trigger",
+      "prompt": "小时候家里不高兴就摔门，我最近也对伴侣摔门。我只知道这个相似习惯，想试一个不同回应，不想推断谁害了我。",
+      "expected_behavior": "由family-response-patterns处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V08",
+      "type": "should_trigger",
+      "prompt": "我没答应帮伴侣每周整理资料，但每次拒绝就内疚，做了又希望他感激。我想判断是不是在牺牲，试着说出真正愿意做的部分。",
+      "expected_behavior": "由willing-giving处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V09",
+      "type": "should_trigger",
+      "prompt": "我为了让伴侣喜欢自己，把唱歌和见朋友都收起来。他没要求我这样做。我想用图像看见依附并画出希望的相处，不能说我已经改变了。",
+      "expected_behavior": "由attachment-images处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V10",
+      "type": "should_trigger",
+      "prompt": "朋友经常抢先反驳。我推测他怕显得无知，而我也怕别人觉得我笨。我想做阴影反思，但不否认他抢话，也不想承认自己一定和他一样。",
+      "expected_behavior": "由shadow-self-reflection处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V11",
+      "type": "should_trigger",
+      "prompt": "伴侣升职，我马上说其实我赚得更多，怕别人觉得我没用。我愿意承认自己的较劲，请用书中三问整理并给一个支持动作。",
+      "expected_behavior": "由partner-competition处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V12",
+      "type": "should_trigger",
+      "prompt": "昨天讨论时伴侣确实帮我把担心听完了。我想为这件事真诚感谢，然后再谈仍未解决的周末安排。给我一句具体话并说明仍有什么未知。",
+      "expected_behavior": "由sincere-appreciation处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V13",
+      "type": "should_trigger",
+      "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。",
+      "expected_behavior": "由partner-double-list处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V14",
+      "type": "should_trigger",
+      "prompt": "我们已停止争论，没有待处理的失约。我想试书中假设已经相处融洽的小实验，伴侣喜欢我煮粥。我可以做什么、怎样观察，不能保证他领情。",
+      "expected_behavior": "由loving-action-experiment处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V15",
+      "type": "should_trigger",
+      "prompt": "我想假期散步，伴侣想休息。双方愿意一起找办法。我的首案是连走三天，他担心体力。请示范发现问题与提出方案怎样合作迭代。",
+      "expected_behavior": "由perspective-cooperation处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V16",
+      "type": "should_trigger",
+      "prompt": "我答应周三带回借来的书，却没带，还骂朋友小题大做。请给只承认我实际错误的诚恳道歉；我不知道他会不会原谅。",
+      "expected_behavior": "由specific-apology处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V17",
+      "type": "should_trigger",
+      "prompt": "朋友现在说不想聊我们的误会，没有急事。我一追问他就退缩。帮我写不逼迫的邀请，并说清给空间不代表什么。",
+      "expected_behavior": "由space-to-talk处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V18",
+      "type": "should_trigger",
+      "prompt": "我觉得上次约会失败，所以这次也一定会失败，我根本不值得被爱。帮我把自我否定转成观察和开放问题，不替我断言未来。",
+      "expected_behavior": "由self-doubt-inquiry处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "route-V19",
+      "type": "should_trigger",
+      "prompt": "我每天安排两人见面，是怕感情变淡；我很累，对方也明确说想留一晚独处。请用允许和明辨反思动机与价值，并写自己的选择表达，不裁决该分手。",
+      "expected_behavior": "由values-and-choice处理；同书相邻入口不得替代",
+      "notes": "对象=internal-routing；reachability"
+    },
+    {
+      "id": "expectation-needs-positive-1",
+      "type": "should_trigger",
+      "prompt": "我和伴侣没有约定每天送我上班，但我总觉得他不送就是我不重要。帮我分清我想要他做什么、我心里的需要、我愿不愿意放下什么。",
+      "expected_behavior": "由expectation-needs处理；同书相邻入口不得替代",
+      "notes": "对象=expectation-needs；should_trigger"
+    },
+    {
+      "id": "expectation-needs-positive-2",
+      "type": "should_trigger",
+      "prompt": "我总觉得伴侣应该证明在乎我，想分清期望与内在需要",
+      "expected_behavior": "由expectation-needs处理；同书相邻入口不得替代",
+      "notes": "对象=expectation-needs；should_trigger"
+    },
+    {
+      "id": "expectation-needs-positive-3",
+      "type": "should_trigger",
+      "prompt": "请用识别期望背后的需求帮我整理一次普通的关系互动。",
+      "expected_behavior": "由expectation-needs处理；同书相邻入口不得替代",
+      "notes": "对象=expectation-needs；should_trigger"
+    },
+    {
+      "id": "expectation-needs-negative-1",
+      "type": "should_not_trigger",
+      "prompt": "请告诉我加拿大首都是什么。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=expectation-needs；should_not_trigger"
+    },
+    {
+      "id": "expectation-needs-negative-2",
+      "type": "should_not_trigger",
+      "prompt": "只想知道这本书的作者和版本，不要给练习。",
+      "expected_behavior": "转到overview",
+      "notes": "对象=expectation-needs；should_not_trigger"
+    },
+    {
+      "id": "expectation-needs-sibling",
+      "type": "should_not_trigger",
+      "prompt": "我故意当着朋友说伴侣笨，希望他丢脸，觉得这样他才知道上次笑话我有多痛。请检查我自己的报复行为并写一句可替换的表达。",
+      "expected_behavior": "由conflict-behaviors处理；同书相邻入口不得替代",
+      "notes": "对象=expectation-needs；sibling"
+    },
+    {
+      "id": "expectation-needs-router",
+      "type": "should_not_trigger",
+      "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。",
+      "expected_behavior": "由partner-double-list处理；同书相邻入口不得替代",
+      "notes": "对象=expectation-needs；sibling"
+    },
+    {
+      "id": "expectation-needs-edge",
+      "type": "edge_case",
+      "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=expectation-needs；edge_case"
+    },
+    {
+      "id": "eight-question-dialogue-positive-1",
+      "type": "should_trigger",
+      "prompt": "我以为今晚要一起吃饭，伴侣说我们从没约定。我还没查聊天记录，很失落。请用本书沟通八问逐项整理，不替我决定谁记错。",
+      "expected_behavior": "由eight-question-dialogue处理；同书相邻入口不得替代",
+      "notes": "对象=eight-question-dialogue；should_trigger"
+    },
+    {
+      "id": "eight-question-dialogue-positive-2",
+      "type": "should_trigger",
+      "prompt": "我们吵起来了，想整理事实、感受与一段可说的对话",
+      "expected_behavior": "由eight-question-dialogue处理；同书相邻入口不得替代",
+      "notes": "对象=eight-question-dialogue；should_trigger"
+    },
+    {
+      "id": "eight-question-dialogue-positive-3",
+      "type": "should_trigger",
+      "prompt": "请用用沟通八问整理冲突帮我整理一次普通的关系互动。",
+      "expected_behavior": "由eight-question-dialogue处理；同书相邻入口不得替代",
+      "notes": "对象=eight-question-dialogue；should_trigger"
+    },
+    {
+      "id": "eight-question-dialogue-negative-1",
+      "type": "should_not_trigger",
+      "prompt": "请告诉我加拿大首都是什么。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=eight-question-dialogue；should_not_trigger"
+    },
+    {
+      "id": "eight-question-dialogue-negative-2",
+      "type": "should_not_trigger",
+      "prompt": "只想知道这本书的作者和版本，不要给练习。",
+      "expected_behavior": "转到overview",
+      "notes": "对象=eight-question-dialogue；should_not_trigger"
+    },
+    {
+      "id": "eight-question-dialogue-sibling",
+      "type": "should_not_trigger",
+      "prompt": "我和朋友小争执后有点烦，愿意用艺术家的方法表达。我画面里像一块灰色石头，但不知道心情有没有改变。帮我完成一份表达记录。",
+      "expected_behavior": "由feeling-expression处理；同书相邻入口不得替代",
+      "notes": "对象=eight-question-dialogue；sibling"
+    },
+    {
+      "id": "eight-question-dialogue-router",
+      "type": "should_not_trigger",
+      "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。",
+      "expected_behavior": "由partner-double-list处理；同书相邻入口不得替代",
+      "notes": "对象=eight-question-dialogue；sibling"
+    },
+    {
+      "id": "eight-question-dialogue-edge",
+      "type": "edge_case",
+      "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=eight-question-dialogue；edge_case"
+    },
+    {
+      "id": "drama-triangle-positive-1",
+      "type": "should_trigger",
+      "prompt": "我替妹妹决定她的约会安排，她拒绝后我说她不识好歹，接着又哭着说谁都不体谅我。帮我看见自己角色的变化及下一步。",
+      "expected_behavior": "由drama-triangle处理；同书相邻入口不得替代",
+      "notes": "对象=drama-triangle；should_trigger"
+    },
+    {
+      "id": "drama-triangle-positive-2",
+      "type": "should_trigger",
+      "prompt": "我在包办、责怪和委屈之间循环，想看清自己的角色",
+      "expected_behavior": "由drama-triangle处理；同书相邻入口不得替代",
+      "notes": "对象=drama-triangle；should_trigger"
+    },
+    {
+      "id": "drama-triangle-positive-3",
+      "type": "should_trigger",
+      "prompt": "请用看见戏剧三角的角色循环帮我整理一次普通的关系互动。",
+      "expected_behavior": "由drama-triangle处理；同书相邻入口不得替代",
+      "notes": "对象=drama-triangle；should_trigger"
+    },
+    {
+      "id": "drama-triangle-negative-1",
+      "type": "should_not_trigger",
+      "prompt": "请告诉我加拿大首都是什么。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=drama-triangle；should_not_trigger"
+    },
+    {
+      "id": "drama-triangle-negative-2",
+      "type": "should_not_trigger",
+      "prompt": "只想知道这本书的作者和版本，不要给练习。",
+      "expected_behavior": "转到overview",
+      "notes": "对象=drama-triangle；should_not_trigger"
+    },
+    {
+      "id": "drama-triangle-sibling",
+      "type": "should_not_trigger",
+      "prompt": "我觉得要么陪伴侣去所有聚会，要么以后都不参加。前者没有独处，后者怕疏远。帮我探索两个之外的选项。",
+      "expected_behavior": "由beyond-two-options处理；同书相邻入口不得替代",
+      "notes": "对象=drama-triangle；sibling"
+    },
+    {
+      "id": "drama-triangle-router",
+      "type": "should_not_trigger",
+      "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。",
+      "expected_behavior": "由partner-double-list处理；同书相邻入口不得替代",
+      "notes": "对象=drama-triangle；sibling"
+    },
+    {
+      "id": "drama-triangle-edge",
+      "type": "edge_case",
+      "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=drama-triangle；edge_case"
+    },
+    {
+      "id": "beyond-two-options-positive-1",
+      "type": "should_trigger",
+      "prompt": "我觉得要么陪伴侣去所有聚会，要么以后都不参加。前者没有独处，后者怕疏远。帮我探索两个之外的选项。",
+      "expected_behavior": "由beyond-two-options处理；同书相邻入口不得替代",
+      "notes": "对象=beyond-two-options；should_trigger"
+    },
+    {
+      "id": "beyond-two-options-positive-2",
+      "type": "should_trigger",
+      "prompt": "我觉得关系问题只有忍下去或彻底断开的两个选择",
+      "expected_behavior": "由beyond-two-options处理；同书相邻入口不得替代",
+      "notes": "对象=beyond-two-options；should_trigger"
+    },
+    {
+      "id": "beyond-two-options-positive-3",
+      "type": "should_trigger",
+      "prompt": "请用打开两难之外的选择帮我整理一次普通的关系互动。",
+      "expected_behavior": "由beyond-two-options处理；同书相邻入口不得替代",
+      "notes": "对象=beyond-two-options；should_trigger"
+    },
+    {
+      "id": "beyond-two-options-negative-1",
+      "type": "should_not_trigger",
+      "prompt": "请告诉我加拿大首都是什么。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=beyond-two-options；should_not_trigger"
+    },
+    {
+      "id": "beyond-two-options-negative-2",
+      "type": "should_not_trigger",
+      "prompt": "只想知道这本书的作者和版本，不要给练习。",
+      "expected_behavior": "转到overview",
+      "notes": "对象=beyond-two-options；should_not_trigger"
+    },
+    {
+      "id": "beyond-two-options-sibling",
+      "type": "should_not_trigger",
+      "prompt": "小时候家里不高兴就摔门，我最近也对伴侣摔门。我只知道这个相似习惯，想试一个不同回应，不想推断谁害了我。",
+      "expected_behavior": "由family-response-patterns处理；同书相邻入口不得替代",
+      "notes": "对象=beyond-two-options；sibling"
+    },
+    {
+      "id": "beyond-two-options-router",
+      "type": "should_not_trigger",
+      "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。",
+      "expected_behavior": "由partner-double-list处理；同书相邻入口不得替代",
+      "notes": "对象=beyond-two-options；sibling"
+    },
+    {
+      "id": "beyond-two-options-edge",
+      "type": "edge_case",
+      "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=beyond-two-options；edge_case"
+    },
+    {
+      "id": "willing-giving-positive-1",
+      "type": "should_trigger",
+      "prompt": "我没答应帮伴侣每周整理资料，但每次拒绝就内疚，做了又希望他感激。我想判断是不是在牺牲，试着说出真正愿意做的部分。",
+      "expected_behavior": "由willing-giving处理；同书相邻入口不得替代",
+      "notes": "对象=willing-giving；should_trigger"
+    },
+    {
+      "id": "willing-giving-positive-2",
+      "type": "should_trigger",
+      "prompt": "我说不内疚、答应又怨，想区分自愿付出与牺牲",
+      "expected_behavior": "由willing-giving处理；同书相邻入口不得替代",
+      "notes": "对象=willing-giving；should_trigger"
+    },
+    {
+      "id": "willing-giving-positive-3",
+      "type": "should_trigger",
+      "prompt": "请用区分自愿付出与内疚驱动的牺牲帮我整理一次普通的关系互动。",
+      "expected_behavior": "由willing-giving处理；同书相邻入口不得替代",
+      "notes": "对象=willing-giving；should_trigger"
+    },
+    {
+      "id": "willing-giving-negative-1",
+      "type": "should_not_trigger",
+      "prompt": "请告诉我加拿大首都是什么。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=willing-giving；should_not_trigger"
+    },
+    {
+      "id": "willing-giving-negative-2",
+      "type": "should_not_trigger",
+      "prompt": "只想知道这本书的作者和版本，不要给练习。",
+      "expected_behavior": "转到overview",
+      "notes": "对象=willing-giving；should_not_trigger"
+    },
+    {
+      "id": "willing-giving-sibling",
+      "type": "should_not_trigger",
+      "prompt": "我为了让伴侣喜欢自己，把唱歌和见朋友都收起来。他没要求我这样做。我想用图像看见依附并画出希望的相处，不能说我已经改变了。",
+      "expected_behavior": "由attachment-images处理；同书相邻入口不得替代",
+      "notes": "对象=willing-giving；sibling"
+    },
+    {
+      "id": "willing-giving-router",
+      "type": "should_not_trigger",
+      "prompt": "我列出伴侣初识优点2项、新发现优点2项、当前缺点3项。按书中双表练习算分并解释这个分数能说明什么、不能说明什么。",
+      "expected_behavior": "由partner-double-list处理；同书相邻入口不得替代",
+      "notes": "对象=willing-giving；sibling"
+    },
+    {
+      "id": "willing-giving-edge",
+      "type": "edge_case",
+      "prompt": "对方正在威胁伤害我，请用关系练习让我当场平静并继续说服他。",
+      "expected_behavior": "转到out-of-scope",
+      "notes": "对象=willing-giving；edge_case"
+    }
+  ]
+}

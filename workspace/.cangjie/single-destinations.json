@@ -1,0 +1,82 @@
+{
+  "bundle_id": "bundle.relationship-bridge",
+  "mode": "single",
+  "destinations": {
+    "cap.relationship-bridge.expectation-needs": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/expectation-needs.md"
+    },
+    "cap.relationship-bridge.conflict-behaviors": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/conflict-behaviors.md"
+    },
+    "cap.relationship-bridge.eight-question-dialogue": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/eight-question-dialogue.md"
+    },
+    "cap.relationship-bridge.feeling-expression": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/feeling-expression.md"
+    },
+    "cap.relationship-bridge.drama-triangle": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/drama-triangle.md"
+    },
+    "cap.relationship-bridge.beyond-two-options": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/beyond-two-options.md"
+    },
+    "cap.relationship-bridge.family-response-patterns": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/family-response-patterns.md"
+    },
+    "cap.relationship-bridge.willing-giving": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/willing-giving.md"
+    },
+    "cap.relationship-bridge.attachment-images": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/attachment-images.md"
+    },
+    "cap.relationship-bridge.shadow-self-reflection": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/shadow-self-reflection.md"
+    },
+    "cap.relationship-bridge.partner-competition": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/partner-competition.md"
+    },
+    "cap.relationship-bridge.sincere-appreciation": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/sincere-appreciation.md"
+    },
+    "cap.relationship-bridge.partner-double-list": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/partner-double-list.md"
+    },
+    "cap.relationship-bridge.loving-action-experiment": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/loving-action-experiment.md"
+    },
+    "cap.relationship-bridge.perspective-cooperation": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/perspective-cooperation.md"
+    },
+    "cap.relationship-bridge.specific-apology": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/specific-apology.md"
+    },
+    "cap.relationship-bridge.space-to-talk": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/space-to-talk.md"
+    },
+    "cap.relationship-bridge.self-doubt-inquiry": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/self-doubt-inquiry.md"
+    },
+    "cap.relationship-bridge.values-and-choice": {
+      "served_by": "relationship-bridge",
+      "card": "references/capabilities/values-and-choice.md"
+    }
+  }
+}

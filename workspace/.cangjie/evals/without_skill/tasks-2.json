@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "v01-boundary",
+    "prompt": "对方答应还我借款却连续三次失约。我感到不被重视。是不是只要放下期望，就不该再要求还钱？请区分内在需要与实际约定责任。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v01-boundary"
+  },
+  {
+    "case_id": "v03-normal",
+    "prompt": "我以为今晚要一起吃饭，伴侣说我们从没约定。我还没查聊天记录，很失落。请用本书沟通八问逐项整理，不替我决定谁记错。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v03-normal"
+  },
+  {
+    "case_id": "v04-boundary",
+    "prompt": "我不熟悉脉轮，也感应不到能量中心，但想用本书方法让烦躁好一点。是否一定要做能量中心法？请给可以自选且可停的替代。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v04-boundary"
+  },
+  {
+    "case_id": "v06-normal",
+    "prompt": "我觉得要么陪伴侣去所有聚会，要么以后都不参加。前者没有独处，后者怕疏远。帮我探索两个之外的选项。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v06-normal"
+  },
+  {
+    "case_id": "v07-boundary",
+    "prompt": "我不记得父母怎么处理冲突，只知道自己习惯打断别人。是不是必须先找出被压抑的童年创伤才能改变？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v07-boundary"
+  },
+  {
+    "case_id": "v09-normal",
+    "prompt": "我为了让伴侣喜欢自己，把唱歌和见朋友都收起来。他没要求我这样做。我想用图像看见依附并画出希望的相处，不能说我已经改变了。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v09-normal"
+  },
+  {
+    "case_id": "v10-boundary",
+    "prompt": "我讨厌某人散播我的私事，但找不到自己有相同特质。我是否必须承认自己也会散播秘密，才算完成阴影练习？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v10-boundary"
+  },
+  {
+    "case_id": "v12-normal",
+    "prompt": "昨天讨论时伴侣确实帮我把担心听完了。我想为这件事真诚感谢，然后再谈仍未解决的周末安排。给我一句具体话并说明仍有什么未知。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v12-normal"
+  },
+  {
+    "case_id": "v13-boundary",
+    "prompt": "双表得了正分，但其中一项缺点是对方多次威胁我。正分是不是证明这段关系好、我应该留下？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v13-boundary"
+  },
+  {
+    "case_id": "v15-normal",
+    "prompt": "我想假期散步，伴侣想休息。双方愿意一起找办法。我的首案是连走三天，他担心体力。请示范发现问题与提出方案怎样合作迭代。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v15-normal"
+  },
+  {
+    "case_id": "v16-boundary",
+    "prompt": "对方说一切都是我的错，但我还没有核清发生的事。我是否应该先为所有事道歉，以便结束争吵？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v16-boundary"
+  },
+  {
+    "case_id": "v18-normal",
+    "prompt": "我觉得上次约会失败，所以这次也一定会失败，我根本不值得被爱。帮我把自我否定转成观察和开放问题，不替我断言未来。\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v18-normal"
+  },
+  {
+    "case_id": "v19-boundary",
+    "prompt": "我觉得结束关系比较好，对方不同意。我能不能因为我心里很平静，就替他说他其实也想分手，并认定对所有人最优？\n请直接完成任务，用中文。返回一个JSON对象，包含 case_id（本题ID）、selected_capability（选用的英文slug或out-of-scope）、response（给用户的完整具体回答）。本题ID：v19-boundary"
+  },
+  {
+    "case_id": "v04-container",
+    "prompt": "我愿用容器与温暖关怀的意象容纳今天的一点烦躁。请给具体引导和可停止、无变化的分支。\n请完成任务并返回JSON对象：case_id=\"v04-container\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。"
+  },
+  {
+    "case_id": "v04-voice",
+    "prompt": "我说不清烦躁想表达什么，想试让感觉说话。请给试探性句子并让我自己确认，不把猜测当潜意识事实。\n请完成任务并返回JSON对象：case_id=\"v04-voice\"，selected_capability（英文slug或out-of-scope），response（中文完整回答）。"
+  }
+]

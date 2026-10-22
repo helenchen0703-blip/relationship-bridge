@@ -1,0 +1,838 @@
+schema_version: 1
+bundle_id: bundle.relationship-bridge
+book:
+  title: 亲密关系：通往灵魂的桥梁
+  author: Christopher Moon
+  source_pack: relationship-bridge
+  baseline_tag: cn2012-print2013
+entry:
+  name: relationship-bridge
+  description: '当用户在亲密关系中反复失望、争吵、讨好、牺牲、害怕不被爱，或想用《亲密关系：通往灵魂的桥梁》的方法整理一次具体互动时使用；也处理本书概览和术语。先按意图只读一张对应能力卡。仅用于自愿的日常反思、沟通草稿与小行动；不用于危机干预、治疗、替人判断伴侣真实意愿或自动裁决关系去留。Triggers:
+    relationship, needs, conflict, guilt, dialogue。'
+  core_principles:
+  - 把可观察事实、自己的感受和对方行为责任分开，不把所有问题解释成旧伤。
+  - 先读路由表，只加载与当前意图最相近的一张卡；必要时组合最多两张。
+  - 承认有需要自然；探索是否把某种特定行为当作自身价值的唯一证明。
+  - 采用自愿、可停止的小范围反思；未知就保留未知，不替用户报告身体或情绪变化。
+  - 原书的灵魂、投射等是解释体系；意象是可选表达，不能当作实体或疗效证据。
+  - 完成标准是清楚的记录、表达或可执行下一步；是否和好与对方是否改变均不由方法保证。
+  - 关系可以结束；不以宽恕、留下、感谢伤害或揽下责任作为成熟指标。
+  out_of_scope:
+  - 当前存在暴力、威胁、胁迫等需优先处理的危险情境：停止普通关系练习，转向现实保护与相应支持。
+  - 自伤/自杀危机、创伤治疗、性障碍或身体症状的诊断治疗。
+  - 与本书及关系任务无关的信息查询、医学因果核验、替伴侣读心，或要求系统裁决最正确的分手/复合决定。
+  stop_conditions:
+  - 必要事实缺失时先问最少信息；不能从一句抱怨推出童年创伤、人格或动机。
+  - 用户不愿、无法想象、练习更难受或需要现实行动时，停止并如实记录；不为平静无限深入。
+  - 若路由与索引没有对应意图，说明超出此包范围。
+router_entry:
+  name: relationship-bridge-router
+  description: '当用户在亲密关系中反复失望、争吵、讨好、牺牲、害怕不被爱，或想用《亲密关系：通往灵魂的桥梁》的方法整理一次具体互动时使用；也处理本书概览和术语。先按意图只读一张对应能力卡。仅用于自愿的日常反思、沟通草稿与小行动；不用于危机干预、治疗、替人判断伴侣真实意愿或自动裁决关系去留。Triggers:
+    relationship, needs, conflict, guilt, dialogue。 Pack中具体的期望/八问沟通/戏剧三角/两难/牺牲任务由相应独立入口处理；本入口处理其余卡片和整书查询。'
+promotion_budget: 8
+capabilities:
+- capability_id: cap.relationship-bridge.expectation-needs
+  revision: 1
+  status: active
+  slug: expectation-needs
+  title: 识别期望背后的需求
+  importance: high
+  importance_rationale: 覆盖T02；阻止把行为命令当成情绪需求，输出更清楚的自我观察。
+  one_liner: 写希望对方做的事→问想获得何种感受→若仍是行动要求则再问→自选是否松开必须由对方满足的要求→观察变化。
+  intents:
+  - 我总觉得伴侣应该证明在乎我，想分清期望与内在需要
+  keywords:
+  - 期望
+  - 需求
+  - 应该
+  - 证明爱
+  - expectation
+  - needs
+  also_read:
+  - cap.relationship-bridge.eight-question-dialogue
+  card: cards/expectation-needs.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我总觉得伴侣应该证明在乎我，想分清期望与内在需要’时使用。只辨认自己的行为期望、内在渴望和放手意愿，不保证内在力量满足所有需求。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 55,56,57,59
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；预计跨日常事件复用且可设近邻/输出用例。按优先任务晋级。
+- capability_id: cap.relationship-bridge.conflict-behaviors
+  revision: 1
+  status: active
+  slug: conflict-behaviors
+  title: 识别控制与报复，停止自己使用的武器
+  importance: medium
+  importance_rationale: 覆盖T03；从泛泛的‘沟通不好’缩小到可以停止的一种具体行为。
+  one_liner: 记录言行和自己的意图→对照表达方式→检查是否希望对方受伤或歉疚→找出自己使用的武器→自愿停止并表达真实感觉。
+  intents:
+  - 我想检查自己是否在冷嘲热讽、控制或报复对方
+  keywords:
+  - 报复
+  - 讽刺
+  - 冷战
+  - retaliation
+  also_read:
+  - cap.relationship-bridge.eight-question-dialogue
+  - cap.relationship-bridge.specific-apology
+  card: cards/conflict-behaviors.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我想检查自己是否在冷嘲热讽、控制或报复对方’时使用。识别有自述或可观察依据的攻击、抽离、被动攻击和报复倾向，不给对方作动机诊断。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 64,65,86,87,88,89,90,123,124
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.eight-question-dialogue
+  revision: 1
+  status: active
+  slug: eight-question-dialogue
+  title: 用沟通八问整理冲突
+  importance: high
+  importance_rationale: 覆盖T04；减少把假设当事实、跳过感受或强迫追溯童年的遗漏。
+  one_liner: 我想要什么→有何误会→我表达的真实情绪→是否熟悉→已知来源→如何回应→背后何种感觉→能否以关怀回应；未知保留未知。
+  intents:
+  - 我们吵起来了，想整理事实、感受与一段可说的对话
+  keywords:
+  - 沟通
+  - 吵架
+  - 误会
+  - dialogue
+  - conflict
+  also_read:
+  - cap.relationship-bridge.expectation-needs
+  - cap.relationship-bridge.feeling-expression
+  - cap.relationship-bridge.specific-apology
+  - cap.relationship-bridge.space-to-talk
+  card: cards/eight-question-dialogue.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我们吵起来了，想整理事实、感受与一段可说的对话’时使用。保留八问顺序；既查事实又查自身体验，不预设旧伤、双方同痛、对方无责或必有双赢。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 96,97,109,110,111,112,113,114,115,116,117,118,128,131,134
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；预计跨日常事件复用且可设近邻/输出用例。按优先任务晋级。
+- capability_id: cap.relationship-bridge.feeling-expression
+  revision: 1
+  status: active
+  slug: feeling-expression
+  title: 用表达与意象练习观察当下情绪
+  importance: medium
+  importance_rationale: 覆盖T05；提供可自主选择的具体表达方式，完成标准从‘必须平静’转为‘如实记录表达与体验’。
+  one_liner: 自选一种→承认感觉→按相应原文步骤表达或观察→记录得到的表达和前后自述；不愿或更难受可停。
+  intents:
+  - 我有日常烦躁，想用画、气球或其他自选意象表达感受
+  keywords:
+  - 画画
+  - 气球
+  - 情绪表达
+  - imagery
+  - feeling
+  also_read:
+  - cap.relationship-bridge.eight-question-dialogue
+  card: cards/feeling-expression.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我有日常烦躁，想用画、气球或其他自选意象表达感受’时使用。限能自主停止的日常情绪。四种通用表达：艺术、气球、散步、感觉说话；四种依个人偏好可选意象：能量中心、容器关怀、肢体意象、交付重负。仅作表达和自述，不验证能量实体或治疗。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 92,129,130,131,135
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.drama-triangle
+  revision: 1
+  status: active
+  slug: drama-triangle
+  title: 看见戏剧三角的角色循环
+  importance: high
+  importance_rationale: 覆盖T06；让重复责怪和包办的转换可见，把精力回到自己可选的行为。
+  one_liner: 还原一轮互动→标记自己在拯救、责怪或无力间的转换→记录感受→问事实是什么、现在能做什么→选一个不继续扮演角色的动作。
+  intents:
+  - 我在包办、责怪和委屈之间循环，想看清自己的角色
+  keywords:
+  - 拯救者
+  - 迫害者
+  - 受害者
+  - drama triangle
+  also_read:
+  - cap.relationship-bridge.beyond-two-options
+  card: cards/drama-triangle.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我在包办、责怪和委屈之间循环，想看清自己的角色’时使用。用自述行为识别角色，不把现实受害者污名化，不否定求助或专业帮助。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 151,152,153,154,156,157,158,159,160,161,162,211,212
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；预计跨日常事件复用且可设近邻/输出用例。按优先任务晋级。
+- capability_id: cap.relationship-bridge.beyond-two-options
+  revision: 1
+  status: active
+  slug: beyond-two-options
+  title: 打开两难之外的选择
+  importance: high
+  importance_rationale: 覆盖T07；解除非此即彼的假设，输出可讨论的额外选项而不保证结果。
+  one_liner: 列两个选项及失去什么→允许接受任一个或都不选→探索组合或第三选项→考虑相关人的利益→确定待验证的下一步。
+  intents:
+  - 我觉得关系问题只有忍下去或彻底断开的两个选择
+  keywords:
+  - 两难
+  - 第三选择
+  - dilemma
+  - options
+  also_read:
+  - cap.relationship-bridge.values-and-choice
+  card: cards/beyond-two-options.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我觉得关系问题只有忍下去或彻底断开的两个选择’时使用。用于扩展选项，不代替现实约束调查或替用户决定去留。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 163,164,165,166,167,212
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；预计跨日常事件复用且可设近邻/输出用例。按优先任务晋级。
+- capability_id: cap.relationship-bridge.family-response-patterns
+  revision: 1
+  status: active
+  slug: family-response-patterns
+  title: 辨认家庭惯例，试一次不同回应
+  importance: medium
+  importance_rationale: 覆盖T08；把‘我天生如此’改为可以观察与尝试改变的具体回应。
+  one_liner: 记录触发和自动回应→对照已知家庭惯例→区分爱家人与沿用旧方法→寻找有创意的新回应→记录实际结果。
+  intents:
+  - 我发现自己重复家里争吵或冷战的方式，想换一次回应
+  keywords:
+  - 家庭模式
+  - 冷战习惯
+  - family patterns
+  also_read:
+  - cap.relationship-bridge.willing-giving
+  card: cards/family-response-patterns.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我发现自己重复家里争吵或冷战的方式，想换一次回应’时使用。只用本人已知经历比较熟悉模式，不推断遗传、隐藏创伤或家庭恶意。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 168,169,170,171,172,173,174,212
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.willing-giving
+  revision: 1
+  status: active
+  slug: willing-giving
+  title: 区分自愿付出与内疚驱动的牺牲
+  importance: high
+  importance_rationale: 覆盖T09；辨别动作相同但动机不同的付出，并避开从讨好跳向报复的极端。
+  one_liner: 选一次付出→想象说好/说不各有什么感受→检查赎罪、被接纳与换感激的动机→允许感受内疚而不攻击自己或对方→选择真正愿意的付出和接受。
+  intents:
+  - 我说不内疚、答应又怨，想区分自愿付出与牺牲
+  keywords:
+  - 牺牲
+  - 内疚
+  - 讨好
+  - giving
+  - guilt
+  also_read:
+  - cap.relationship-bridge.attachment-images
+  card: cards/willing-giving.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我说不内疚、答应又怨，想区分自愿付出与牺牲’时使用。检查动机与可选回应，不以疲劳诊断牺牲，不取消真实承诺，不把对方放纵归因于自己。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 175,176,177,178,179,180,181,182,183,184,185,217
+  promotion:
+    destination: promoted
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；预计跨日常事件复用且可设近邻/输出用例。按优先任务晋级。
+- capability_id: cap.relationship-bridge.attachment-images
+  revision: 1
+  status: active
+  slug: attachment-images
+  title: 用图像看见为获得爱而缩减自己
+  importance: medium
+  importance_rationale: 覆盖T10；把模糊窒息感转为可讨论的自我形象与希望的相处方式。
+  one_liner: 画当前被束缚的相处→记录熟悉感觉与放弃的部分→表达想做自己的意向→画解绑过程及希望的相处→标记仍存冲突，不无限重画。
+  intents:
+  - 我怕不被爱而收起自己，想画出依附与希望的相处
+  keywords:
+  - 依附
+  - 收起自己
+  - attachment image
+  also_read:
+  - cap.relationship-bridge.willing-giving
+  card: cards/attachment-images.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我怕不被爱而收起自己，想画出依附与希望的相处’时使用。当作自我表达的想象练习，图像不是诊断、预测或改变对方的工具。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 186,187,188,189,213
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.shadow-self-reflection
+  revision: 1
+  status: active
+  slug: shadow-self-reflection
+  title: 把强烈评判转为有边界的自省
+  importance: medium
+  importance_rationale: 覆盖T11；在不否认实际行为的前提下，增加自我观察，而不是只重复攻击。
+  one_liner: 写受不了的特质及行为依据→尝试寻找自己类似信念/感觉→接纳已确认的部分及不自在→找真实欣赏点→检查变化，未匹配或不愿继续可停。
+  intents:
+  - 我对某人强烈反感，想在保留行为事实下做自我反思
+  keywords:
+  - 阴影
+  - 投射
+  - 强烈反感
+  - shadow
+  also_read:
+  - cap.relationship-bridge.partner-double-list
+  card: cards/shadow-self-reflection.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我对某人强烈反感，想在保留行为事实下做自我反思’时使用。保留原书五步的探索结构，但拒绝强认‘对方就是我’；动机和相似处均须作为假设。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 190,191,192,193,194,213
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.partner-competition
+  revision: 1
+  status: active
+  slug: partner-competition
+  title: 承认伴侣间的竞争，转向支持
+  importance: medium
+  importance_rationale: 覆盖T12；将隐性较劲变为可承认、可停止并能采取支持行动的行为。
+  one_liner: 列竞争及扯后腿的具体行为→检查害怕落后什么→回答伴侣、自己、真理是否值得面对羞耻去承认→自愿承认→支持对方的长处。
+  intents:
+  - 伴侣成功时我总想比过他，想停止扯后腿并支持他
+  keywords:
+  - 竞争
+  - 嫉妒
+  - 扯后腿
+  - competition
+  also_read:
+  - cap.relationship-bridge.sincere-appreciation
+  card: cards/partner-competition.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘伴侣成功时我总想比过他，想停止扯后腿并支持他’时使用。用于本人承认的竞争行为，不假定所有比较都源于不足，不把职业公平竞争等同伴侣破坏。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 198,199,200,213
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.sincere-appreciation
+  revision: 1
+  status: active
+  slug: sincere-appreciation
+  title: 用真诚感谢松动沟通僵局
+  importance: medium
+  importance_rationale: 覆盖T01,T04；提供不靠讽刺或讨好的具体开场，并保留问题尚未解决的事实。
+  one_liner: 检查是否真心想靠近→找一件真实可感谢的事→简明表达→观察对方回应，再决定是否继续谈。
+  intents:
+  - 我想真诚感谢对方的一件具体事情，松动僵局
+  keywords:
+  - 感谢
+  - 欣赏
+  - gratitude
+  also_read:
+  - cap.relationship-bridge.loving-action-experiment
+  card: cards/sincere-appreciation.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我想真诚感谢对方的一件具体事情，松动僵局’时使用。只说自己确实相信的话，不要求用户感谢伤害，也不借感谢迫使对方合作。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 131,133,134
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.partner-double-list
+  revision: 1
+  status: active
+  slug: partner-double-list
+  title: 用优缺点双表检查注意力偏向
+  importance: medium
+  importance_rationale: 覆盖T01；固定两面清单，避免只列近期不满；数量与严重程度明确分开。
+  one_liner: 列初识及新发现优点→另列当前缺点→按每项正负十分计数→观察注意偏向及遗漏→把重要问题另记。
+  intents:
+  - 我最近只看到伴侣缺点，想列优缺点双表反思
+  keywords:
+  - 优点
+  - 缺点
+  - 双表
+  - strengths
+  also_read:
+  - cap.relationship-bridge.shadow-self-reflection
+  card: cards/partner-double-list.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我最近只看到伴侣缺点，想列优缺点双表反思’时使用。限双列表反思及原书计数规则，不作为关系质量、安全或去留量表。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 37
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.loving-action-experiment
+  revision: 1
+  status: active
+  slug: loving-action-experiment
+  title: 想象融洽时的自己，试一个善意行动
+  importance: medium
+  importance_rationale: 覆盖T15,T04；把愿望变成自己能做的一次回应实验，避免只等对方先改变。
+  one_liner: 假设此刻相处融洽会怎样→我能做什么并先试一个自主小行动→留意若相爱我会有什么感受→我会如何看待对方→观察真实变化。小行动的范围和不保证回应属于执行编排。
+  intents:
+  - 普通摩擦后我想试一个自己能做的善意小行动
+  keywords:
+  - 善意
+  - 融洽
+  - 主动靠近
+  - loving action
+  also_read:
+  - cap.relationship-bridge.sincere-appreciation
+  card: cards/loving-action-experiment.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘普通摩擦后我想试一个自己能做的善意小行动’时使用。用于自主尝试新的回应；不接受量子机制解释，不以做事补偿未处理的伤害，不把对方改变设为完成标准。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 222,223,224,227
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.perspective-cooperation
+  revision: 1
+  status: active
+  slug: perspective-cooperation
+  title: 让发现问题与提出方案相互配合
+  importance: medium
+  importance_rationale: 覆盖T04；使乐观与挑错都成为方案改进环节，而不把其中一方视为麻烦。
+  one_liner: 一方提出顾虑→另一方聆听提案→前者检视方案问题→修正→共同查看剩余顾虑和可行性。
+  intents:
+  - 我们愿意合作，想把顾虑与提案逐轮修正
+  keywords:
+  - 提案
+  - 顾虑
+  - 修正
+  - cooperate
+  also_read:
+  - cap.relationship-bridge.eight-question-dialogue
+  card: cards/perspective-cooperation.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我们愿意合作，想把顾虑与提案逐轮修正’时使用。双方愿意共同讨论时使用，不固定正反人格，不要求无限迭代至完美。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 98,99,100,132,133
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.specific-apology
+  revision: 1
+  status: active
+  slug: specific-apology
+  title: 为自己实际做错的部分诚恳道歉
+  importance: medium
+  importance_rationale: 覆盖T04；防止空泛道歉或自我全盘否定，把认错限定为有事实依据的行为。
+  one_liner: 找实际错误→检查是否愿承认→清楚说出并诚恳道歉→听对方回应→承担自己后续行为。
+  intents:
+  - 我确实失约或说错话了，想为具体行为道歉
+  keywords:
+  - 道歉
+  - 认错
+  - apology
+  also_read:
+  - cap.relationship-bridge.eight-question-dialogue
+  card: cards/specific-apology.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我确实失约或说错话了，想为具体行为道歉’时使用。承认自己的具体错误，不为求和认下未做的事，不保证对方原谅。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 132,133,137
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.space-to-talk
+  revision: 1
+  status: active
+  slug: space-to-talk
+  title: 邀请沟通并给对方选择空间
+  importance: medium
+  importance_rationale: 覆盖T04；防止把关心变成强迫表达，保持邀请与隐性要求的区别。
+  one_liner: 表达如果愿谈我在→停止逼问→留真实空间而不暗中考验→观察是否有自愿交流→需要处理现实期限时另行说明。
+  intents:
+  - 对方暂时不想说话，我想发出不逼迫的谈话邀请
+  keywords:
+  - 不想谈
+  - 空间
+  - 邀请
+  - space
+  also_read:
+  - cap.relationship-bridge.eight-question-dialogue
+  card: cards/space-to-talk.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘对方暂时不想说话，我想发出不逼迫的谈话邀请’时使用。用于非紧急且可以等待的谈话；空间不等于必须无限等待，不把安静认作恶意。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 133
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.self-doubt-inquiry
+  revision: 1
+  status: active
+  slug: self-doubt-inquiry
+  title: 把自我否定转成观察与提问
+  importance: medium
+  importance_rationale: 覆盖T13；将笼统自我判决变成可观察的话语与具体问句，保留现实不确定性。
+  one_liner: 听到自我否定内容→记录引起的感受→不忙于服从或争斗→用开放问题检视→把未知的现实信息另记。
+  intents:
+  - 我总把过去失败推成未来必败，想听清自己的怀疑
+  keywords:
+  - 怀疑
+  - 我不行
+  - 必定失败
+  - self doubt
+  also_read:
+  - cap.relationship-bridge.values-and-choice
+  card: cards/self-doubt-inquiry.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我总把过去失败推成未来必败，想听清自己的怀疑’时使用。只处理本人自我否定的声音；不把所有怀疑当成小我，不替用户鉴别现实风险。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 203,204,205,206,207,208,209,210,214
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
+- capability_id: cap.relationship-bridge.values-and-choice
+  revision: 1
+  status: active
+  slug: values-and-choice
+  title: 辨认行动驱动力，表达自己的选择
+  importance: medium
+  importance_rationale: 覆盖T14；使忙碌和迎合背后的驱动力可见，形成不替对方读心的选择表达。
+  one_liner: 选具体行动→参照允许/为做而做及个人/重要对照→写动机、希望保护的价值→保留事实和他人意愿未知→表达自己的决定或下一步。
+  intents:
+  - 我想看清一个关系行动的动机和价值，再诚实表达自己的选择
+  keywords:
+  - 允许
+  - 明辨
+  - 价值
+  - 选择
+  - values
+  also_read:
+  - cap.relationship-bridge.beyond-two-options
+  - cap.relationship-bridge.self-doubt-inquiry
+  card: cards/values-and-choice.md
+  resources:
+  - resources/source-notes.md
+  - resources/cases.md
+  - resources/counter-examples.md
+  - resources/test-prompts.json
+  - resources/test-results.md
+  frontmatter:
+    description: 当用户说‘我想看清一个关系行动的动机和价值，再诚实表达自己的选择’时使用。反思个人需要、强迫忙碌和共同利益，不提供最优去留判决，也不代伴侣解释真实意愿。
+    tags:
+    - relationship
+    - self-reflection
+  source_evidence:
+  - source_id: moon-relationship-cn2012
+    version_id: cn2012-print2013
+    location: PDF文件页序 139,209,210,230,231,232,233,234,235,236
+  promotion:
+    destination: router
+    gate:
+      independent_intent: true
+      independent_contract: true
+      independent_run: true
+      independent_reuse: true
+      independent_eval: true
+    notes: 独立意图、契约及运行可成立；保留为可复用能力卡。考虑与高频入口的相邻触发重叠及入口节制，本轮不单独发现。
